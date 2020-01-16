@@ -3,7 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DiaryEntriesModule } from './diary-entries/diary-entries.module';
+import { DiaryEntriesModule } from './modules/diary-entries/diary-entries.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { DiaryEntriesModule } from './diary-entries/diary-entries.module';
     BrowserModule,
     DiaryEntriesModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
