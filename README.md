@@ -1,27 +1,56 @@
-# CypressDiaryApp
+GETTING CYPRESS IN:
+> npm install -g @briebug/cypress-schematic
+> npm install cypress --save-dev
+> npm i -D  @briebug/cypress-schematic
+> ng g @briebug/cypress-schematic:cypress true
+> npm i -D ngx-build-plus
+> npx cypress open
+> Add coverage.webpack.js file to cypress folder:
+	module.exports = {
+  module: {
+    rules: [
+      {
+        test: /\.(js|ts)$/,
+        loader: 'istanbul-instrumenter-loader',
+        options: { esModules: true },
+        enforce: 'post',
+        include: require('path').join(__dirname, '..', 'src'),
+        exclude: [
+          /\.(e2e|spec)\.ts$/,
+          /node_modules/,
+          /(ngfactory|ngstyle)\.js/
+        ]
+      }
+    ]
+  }
+};
+> Update Angular.json
+	"serve": {
+          "builder": "ngx-build-plus:dev-server",
+          "options": {
+            "browserTarget": "cypress-angular-coverage-example:build",
+            "extraWebpackConfig": "./cypress/coverage.webpack.js"
+          },
+> npm i -D istanbul-instrumenter-loader
+> npm i -D @istanbuljs/nyc-config-typescript source-map-support ts-node
+> Add to package.json
+	  "nyc": {
+    "extends": "@istanbuljs/nyc-config-typescript",
+    "all": true
+  },
+>  npm install -D @cypress/code-coverage nyc istanbul-lib-coverage
+> Add to cypress/support/index.js
+	import '@cypress/code-coverage/support'
+> Add to cypress/plugins/index.js
+	module.exports = (on, config) => {
+  on('task', require('@cypress/code-coverage/task'))
+}
+> Add tsconfig.json to cypress folder
+	{
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
+  "extends": "../tsconfig.json",
 
-## Development server
+  "include": ["integration/*.ts", "support/*.ts", "../node_modules/cypress"]
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+}
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
