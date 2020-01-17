@@ -1,8 +1,8 @@
-<div *ngIf="entries">
-  <mat-nav-list>
-    <div><h3>ENTRIES</h3></div>
-    <div *ngFor="let link of links">
-      <a id="view-entry{{link.entry.id}}" class="list-link" mat-list-item [routerLink]="[link.url, link.entry.id]" >
+<div *ngIf="links">
+  <div><h3>ENTRIES</h3></div>
+  <mat-nav-list id="entries-list">
+    <div id="view-entry{{link.entry.id}}"  *ngFor="let link of links">
+      <a class="list-link" mat-list-item [routerLink]="[link.url, link.entry.id]" >
         <h4>{{ link.entry.title }}</h4>
         <h6>{{ link.entry.content }}</h6>    
       </a>
