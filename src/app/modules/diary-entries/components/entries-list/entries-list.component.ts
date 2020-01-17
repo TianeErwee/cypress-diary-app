@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { EntryServiceService } from '../../services/entry-service.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-entries-list',
@@ -8,10 +9,29 @@ import { EntryServiceService } from '../../services/entry-service.service';
 })
 export class EntriesListComponent implements OnInit {
 
-  constructor(private entryService: EntryServiceService) { }
+  entries: any[];
+  links: any[];
+
+  constructor(private entryService: EntryServiceService, private router: Router) { }
 
   ngOnInit() {
-    this.entryService.getEntries();
+    this.init();
+  }
+
+  async init() {
+    const res = await this.entryService.getEntries();
+    this.entries = res.statusMessage;
+    this.links = this.entries.map(e => {
+      return { url: '/entries/view-entry', entry: e};
+    });
+  }
+
+  navToCreate() {
+    this.router.navigateByUrl('/entries/create-entry');
+  }
+
+  deleteEntry(id: number) {
+    this.entryService.deleteEntry(id);
   }
 
 }

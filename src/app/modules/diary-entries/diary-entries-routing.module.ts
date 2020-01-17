@@ -9,7 +9,8 @@ const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   { path: 'entries/view-entry/:id', component: ViewEntryComponent },
   { path: 'entries/list', component: EntriesListComponent },
-  { path: 'entries/create-entry', component: CreateEntryComponent }
+  { path: 'entries/create-entry', component: CreateEntryComponent },
+  { path: 'entries/update-entry/:id', component: CreateEntryComponent }
 ];
 
 @NgModule({
