@@ -2,17 +2,17 @@
   <mat-nav-list>
     <div><h3>ENTRIES</h3></div>
     <div *ngFor="let link of links">
-      <a class="list-link" mat-list-item [routerLink]="[link.url, link.entry.id]" >
+      <a id="view-entry{{link.entry.id}}" class="list-link" mat-list-item [routerLink]="[link.url, link.entry.id]" >
         <h4>{{ link.entry.title }}</h4>
         <h6>{{ link.entry.content }}</h6>    
       </a>
-      <button class="list-icon" mat-icon-button (click)="deleteEntry(link.entry.id)">
+      <button id="delete-entry{{link.entry.id}}" class="list-icon" mat-icon-button (click)="deleteEntry(link.entry.id)">
         <mat-icon>delete_outline</mat-icon>
      </button>
     </div>
  </mat-nav-list>
 </div>
 <div>
-  <button mat-button color="primary" (click)="navToCreate($event)">Create entry</button>
+  <button id="create-entry" mat-button color="primary" (click)="navToCreate($event)">Create entry</button>
 </div>
 

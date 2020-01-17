@@ -1,13 +1,13 @@
 <div>
   <form [formGroup]="entryForm" (ngSubmit)="entryAction()">
     <mat-form-field class="example-full-width">
-      <input matInput placeholder="Title" formControlName="title">
+      <input id="title-input" matInput placeholder="Title" formControlName="title">
     </mat-form-field>
   
     <mat-form-field class="example-full-width">
-      <textarea matInput placeholder="Content" formControlName="content"></textarea>
+      <textarea id="content-input" matInput placeholder="Content" formControlName="content"></textarea>
     </mat-form-field>
-    <button mat-button color="primary" type="submit" [disabled]="!entryForm.valid">Save</button>
-    <button mat-button color="secondary" (click)="cancelAction($event)">Cancel</button>
+    <button id="submit-entry" mat-button color="primary" type="submit" [disabled]="!entryForm.valid">Save</button>
+    <button id="cancel" mat-button color="secondary" (click)="cancelAction($event)">Cancel</button>
   </form>
 </div>

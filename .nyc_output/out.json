@@ -32,27 +32,27 @@
           "column": 15
         },
         "end": {
-          "line": 6,
+          "line": 7,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 7,
+          "line": 8,
           "column": 23
         },
         "end": {
-          "line": 8,
+          "line": 9,
           "column": 1
         }
       },
       "2": {
         "start": {
-          "line": 9,
+          "line": 10,
           "column": 0
         },
         "end": {
-          "line": 14,
+          "line": 15,
           "column": 21
         }
       }
@@ -74,13 +74,13 @@
         "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/app-routing.module.ts"
       ],
       "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAU,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAGvD,MAAM,MAAM,GAAW;IACrB,EAAE,IAAI,EAAE,EAAE,EAAE,UAAU,EAAE,YAAY,EAAE,SAAS,EAAE,MAAM,EAAE;CAC1D,CAAC;AAMF,IAAa,gBAAgB,GAA7B,MAAa,gBAAgB;CAAI,CAAA;AAApB,gBAAgB;IAJ5B,QAAQ,CAAC;QACR,OAAO,EAAE,CAAC,YAAY,CAAC,OAAO,CAAC,MAAM,CAAC,CAAC;QACvC,OAAO,EAAE,CAAC,YAAY,CAAC;KACxB,CAAC;GACW,gBAAgB,CAAI;SAApB,gBAAgB",
+      "mappings": ";AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAU,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAGvD,MAAM,MAAM,GAAW;IACrB,EAAE,IAAI,EAAE,EAAE,EAAE,UAAU,EAAE,YAAY,EAAE,SAAS,EAAE,MAAM,EAAE;IACzD,EAAE,IAAI,EAAE,IAAI,EAAE,UAAU,EAAE,YAAY,EAAE,SAAS,EAAE,MAAM,EAAE;CAC5D,CAAC;AAMF,IAAa,gBAAgB,GAA7B,MAAa,gBAAgB;CAAI,CAAA;AAApB,gBAAgB;IAJ5B,QAAQ,CAAC;QACR,OAAO,EAAE,CAAC,YAAY,CAAC,OAAO,CAAC,MAAM,CAAC,CAAC;QACvC,OAAO,EAAE,CAAC,YAAY,CAAC;KACxB,CAAC;GACW,gBAAgB,CAAI;SAApB,gBAAgB",
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { Routes, RouterModule } from '@angular/router';\n\n\nconst routes: Routes = [\n  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule { }\n"
+        "import { NgModule } from '@angular/core';\nimport { Routes, RouterModule } from '@angular/router';\n\n\nconst routes: Routes = [\n  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },\n  { path: '**', redirectTo: '/dashboard', pathMatch: 'full' },\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule { }\n"
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "041409480a8d890975194f87ff3bc6fda05fd06c"
+    "hash": "a0835d1814e6d489dcd098f74ef921cad8f0f311"
   },
   "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/app.component.ts": {
     "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/app.component.ts",
@@ -177,7 +177,7 @@
           "column": 26
         },
         "end": {
-          "line": 17,
+          "line": 57,
           "column": 1
         }
       },
@@ -207,7 +207,7 @@
           "column": 8
         },
         "end": {
-          "line": 15,
+          "line": 19,
           "column": 11
         }
       },
@@ -217,47 +217,177 @@
           "column": 12
         },
         "end": {
-          "line": 12,
-          "column": 40
+          "line": 18,
+          "column": 15
         }
       },
       "5": {
         "start": {
           "line": 14,
-          "column": 12
+          "column": 16
         },
         "end": {
           "line": 14,
-          "column": 31
+          "column": 32
         }
       },
       "6": {
         "start": {
-          "line": 18,
-          "column": 0
+          "line": 17,
+          "column": 16
         },
         "end": {
-          "line": 21,
-          "column": 2
+          "line": 17,
+          "column": 33
         }
       },
       "7": {
         "start": {
-          "line": 18,
-          "column": 43
+          "line": 22,
+          "column": 8
         },
         "end": {
-          "line": 21,
-          "column": 1
+          "line": 28,
+          "column": 11
         }
       },
       "8": {
         "start": {
-          "line": 22,
+          "line": 24,
+          "column": 12
+        },
+        "end": {
+          "line": 24,
+          "column": 28
+        }
+      },
+      "9": {
+        "start": {
+          "line": 27,
+          "column": 12
+        },
+        "end": {
+          "line": 27,
+          "column": 29
+        }
+      },
+      "10": {
+        "start": {
+          "line": 31,
+          "column": 8
+        },
+        "end": {
+          "line": 37,
+          "column": 11
+        }
+      },
+      "11": {
+        "start": {
+          "line": 33,
+          "column": 12
+        },
+        "end": {
+          "line": 33,
+          "column": 28
+        }
+      },
+      "12": {
+        "start": {
+          "line": 36,
+          "column": 12
+        },
+        "end": {
+          "line": 36,
+          "column": 29
+        }
+      },
+      "13": {
+        "start": {
+          "line": 40,
+          "column": 8
+        },
+        "end": {
+          "line": 46,
+          "column": 11
+        }
+      },
+      "14": {
+        "start": {
+          "line": 42,
+          "column": 12
+        },
+        "end": {
+          "line": 42,
+          "column": 28
+        }
+      },
+      "15": {
+        "start": {
+          "line": 45,
+          "column": 12
+        },
+        "end": {
+          "line": 45,
+          "column": 29
+        }
+      },
+      "16": {
+        "start": {
+          "line": 49,
+          "column": 8
+        },
+        "end": {
+          "line": 55,
+          "column": 11
+        }
+      },
+      "17": {
+        "start": {
+          "line": 51,
+          "column": 12
+        },
+        "end": {
+          "line": 51,
+          "column": 28
+        }
+      },
+      "18": {
+        "start": {
+          "line": 54,
+          "column": 12
+        },
+        "end": {
+          "line": 54,
+          "column": 29
+        }
+      },
+      "19": {
+        "start": {
+          "line": 58,
           "column": 0
         },
         "end": {
-          "line": 26,
+          "line": 61,
+          "column": 2
+        }
+      },
+      "20": {
+        "start": {
+          "line": 58,
+          "column": 43
+        },
+        "end": {
+          "line": 61,
+          "column": 1
+        }
+      },
+      "21": {
+        "start": {
+          "line": 62,
+          "column": 0
+        },
+        "end": {
+          "line": 66,
           "column": 24
         }
       }
@@ -305,7 +435,7 @@
             "column": 17
           },
           "end": {
-            "line": 16,
+            "line": 20,
             "column": 5
           }
         },
@@ -316,20 +446,20 @@
         "decl": {
           "start": {
             "line": 11,
-            "column": 56
+            "column": 55
           },
           "end": {
             "line": 11,
-            "column": 57
+            "column": 56
           }
         },
         "loc": {
           "start": {
             "line": 11,
-            "column": 66
+            "column": 68
           },
           "end": {
-            "line": 13,
+            "line": 19,
             "column": 9
           }
         },
@@ -340,21 +470,21 @@
         "decl": {
           "start": {
             "line": 13,
-            "column": 11
+            "column": 22
           },
           "end": {
             "line": 13,
-            "column": 12
+            "column": 23
           }
         },
         "loc": {
           "start": {
             "line": 13,
-            "column": 20
+            "column": 34
           },
           "end": {
             "line": 15,
-            "column": 9
+            "column": 13
           }
         },
         "line": 13
@@ -363,25 +493,337 @@
         "name": "(anonymous_4)",
         "decl": {
           "start": {
-            "line": 18,
-            "column": 37
+            "line": 16,
+            "column": 23
+          },
+          "end": {
+            "line": 16,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 30
           },
           "end": {
             "line": 18,
+            "column": 13
+          }
+        },
+        "line": 16
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 4
+          },
+          "end": {
+            "line": 21,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 21,
+            "column": 23
+          },
+          "end": {
+            "line": 29,
+            "column": 5
+          }
+        },
+        "line": 21
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 18
+          },
+          "end": {
+            "line": 23,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 30
+          },
+          "end": {
+            "line": 25,
+            "column": 9
+          }
+        },
+        "line": 23
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 26,
+            "column": 19
+          },
+          "end": {
+            "line": 26,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 26
+          },
+          "end": {
+            "line": 28,
+            "column": 9
+          }
+        },
+        "line": 26
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 30,
+            "column": 4
+          },
+          "end": {
+            "line": 30,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 42
+          },
+          "end": {
+            "line": 38,
+            "column": 5
+          }
+        },
+        "line": 30
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 18
+          },
+          "end": {
+            "line": 32,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 30
+          },
+          "end": {
+            "line": 34,
+            "column": 9
+          }
+        },
+        "line": 32
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 19
+          },
+          "end": {
+            "line": 35,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 26
+          },
+          "end": {
+            "line": 37,
+            "column": 9
+          }
+        },
+        "line": 35
+      },
+      "11": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": {
+            "line": 39,
+            "column": 4
+          },
+          "end": {
+            "line": 39,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 51
+          },
+          "end": {
+            "line": 47,
+            "column": 5
+          }
+        },
+        "line": 39
+      },
+      "12": {
+        "name": "(anonymous_12)",
+        "decl": {
+          "start": {
+            "line": 41,
+            "column": 18
+          },
+          "end": {
+            "line": 41,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 30
+          },
+          "end": {
+            "line": 43,
+            "column": 9
+          }
+        },
+        "line": 41
+      },
+      "13": {
+        "name": "(anonymous_13)",
+        "decl": {
+          "start": {
+            "line": 44,
+            "column": 19
+          },
+          "end": {
+            "line": 44,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 44,
+            "column": 26
+          },
+          "end": {
+            "line": 46,
+            "column": 9
+          }
+        },
+        "line": 44
+      },
+      "14": {
+        "name": "(anonymous_14)",
+        "decl": {
+          "start": {
+            "line": 48,
+            "column": 4
+          },
+          "end": {
+            "line": 48,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 25
+          },
+          "end": {
+            "line": 56,
+            "column": 5
+          }
+        },
+        "line": 48
+      },
+      "15": {
+        "name": "(anonymous_15)",
+        "decl": {
+          "start": {
+            "line": 50,
+            "column": 18
+          },
+          "end": {
+            "line": 50,
+            "column": 19
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 50,
+            "column": 30
+          },
+          "end": {
+            "line": 52,
+            "column": 9
+          }
+        },
+        "line": 50
+      },
+      "16": {
+        "name": "(anonymous_16)",
+        "decl": {
+          "start": {
+            "line": 53,
+            "column": 19
+          },
+          "end": {
+            "line": 53,
+            "column": 20
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 53,
+            "column": 26
+          },
+          "end": {
+            "line": 55,
+            "column": 9
+          }
+        },
+        "line": 53
+      },
+      "17": {
+        "name": "(anonymous_17)",
+        "decl": {
+          "start": {
+            "line": 58,
+            "column": 37
+          },
+          "end": {
+            "line": 58,
             "column": 38
           }
         },
         "loc": {
           "start": {
-            "line": 18,
+            "line": 58,
             "column": 43
           },
           "end": {
-            "line": 21,
+            "line": 61,
             "column": 1
           }
         },
-        "line": 18
+        "line": 58
       }
     },
     "branchMap": {},
@@ -390,18 +832,44 @@
       "1": 1,
       "2": 1,
       "3": 1,
-      "4": 0,
+      "4": 1,
       "5": 1,
-      "6": 1,
-      "7": 2,
-      "8": 1
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 1,
+      "20": 2,
+      "21": 1
     },
     "f": {
       "0": 1,
       "1": 1,
-      "2": 0,
+      "2": 1,
       "3": 1,
-      "4": 2
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 2
     },
     "b": {},
     "inputSourceMap": {
@@ -412,34 +880,34 @@
         "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/services/entry-service.service.ts"
       ],
       "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,eAAe,CAAC;AAC3C,OAAO,EAAE,UAAU,EAAE,MAAM,sBAAsB,CAAC;AAClD,OAAO,EAAE,MAAM,EAAE,MAAM,iBAAiB,CAAC;AAKzC,IAAa,mBAAmB,GAAhC,MAAa,mBAAmB;IAE9B,YAAoB,IAAgB,EAAU,MAAc;QAAxC,SAAI,GAAJ,IAAI,CAAY;QAAU,WAAM,GAAN,MAAM,CAAQ;IAAI,CAAC;IAEjE,UAAU;QACR,IAAI,CAAC,IAAI,CAAC,GAAG,CAAC,sBAAsB,CAAC,CAAC,SAAS,CAAC,CAAC,IAAS,EAAE,EAAE;YAC5D,OAAO,CAAC,GAAG,CAAC,QAAQ,EAAE,IAAI,CAAC,CAAC;QAC9B,CAAC,EAAE,KAAK,CAAC,EAAE;YACT,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC;QACrB,CAAC,CAAC,CAAC;IACL,CAAC;CACF,CAAA;;YAT2B,UAAU;YAAkB,MAAM;;AAFjD,mBAAmB;IAH/B,UAAU,CAAC;QACV,UAAU,EAAE,MAAM;KACnB,CAAC;GACW,mBAAmB,CAW/B;SAXY,mBAAmB",
+      "mappings": ";AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,eAAe,CAAC;AAC3C,OAAO,EAAE,UAAU,EAAE,MAAM,sBAAsB,CAAC;AAClD,OAAO,EAAE,MAAM,EAAE,MAAM,iBAAiB,CAAC;AAKzC,IAAa,mBAAmB,GAAhC,MAAa,mBAAmB;IAE9B,YAAoB,IAAgB,EAAU,MAAc;QAAxC,SAAI,GAAJ,IAAI,CAAY;QAAU,WAAM,GAAN,MAAM,CAAQ;IAAI,CAAC;IAE3D,UAAU;;YACd,OAAO,IAAI,CAAC,IAAI,CAAC,GAAG,CAAC,sBAAsB,CAAC,CAAC,SAAS,EAAE;iBACrD,IAAI,CAAC,QAAQ,CAAC,EAAE;gBACf,OAAO,QAAQ,CAAC;YAClB,CAAC,CAAC;iBACD,KAAK,CAAC,GAAG,CAAC,EAAE;gBACX,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;YACnB,CAAC,CAAC,CAAC;QACP,CAAC;KAAA;IAED,SAAS,CAAC,OAAe;QACvB,OAAO,IAAI,CAAC,IAAI,CAAC,GAAG,CAAC,6BAA6B,GAAG,OAAO,CAAC,CAAC,SAAS,EAAE;aACxE,IAAI,CAAC,QAAQ,CAAC,EAAE;YACf,OAAO,QAAQ,CAAC;QAClB,CAAC,CAAC;aACD,KAAK,CAAC,GAAG,CAAC,EAAE;YACX,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;QACnB,CAAC,CAAC,CAAC;IACL,CAAC;IAED,WAAW,CAAC,UAAkB,EAAE,YAAoB;QAClD,OAAO,IAAI,CAAC,IAAI,CAAC,IAAI,CAAC,8BAA8B,EAAE,EAAC,KAAK,EAAE,UAAU,EAAE,OAAO,EAAE,YAAY,EAAC,CAAC,CAAC,SAAS,EAAE;aAC5G,IAAI,CAAC,QAAQ,CAAC,EAAE;YACf,OAAO,QAAQ,CAAC;QAClB,CAAC,CAAC;aACD,KAAK,CAAC,GAAG,CAAC,EAAE;YACX,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;QACnB,CAAC,CAAC,CAAC;IACL,CAAC;IAED,WAAW,CAAC,OAAe,EAAE,UAAkB,EAAE,YAAoB;QACnE,OAAO,IAAI,CAAC,IAAI,CAAC,GAAG,CAAC,+BAA+B,GAAG,OAAO,EAAE,EAAC,KAAK,EAAE,UAAU,EAAE,OAAO,EAAE,YAAY,EAAC,CAAC,CAAC,SAAS,EAAE;aACtH,IAAI,CAAC,QAAQ,CAAC,EAAE;YACf,OAAO,QAAQ,CAAC;QAClB,CAAC,CAAC;aACD,KAAK,CAAC,GAAG,CAAC,EAAE;YACX,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;QACnB,CAAC,CAAC,CAAC;IACL,CAAC;IAED,WAAW,CAAC,OAAe;QACzB,OAAO,IAAI,CAAC,IAAI,CAAC,MAAM,CAAC,+BAA+B,GAAG,OAAO,CAAC,CAAC,SAAS,EAAE;aAC7E,IAAI,CAAC,QAAQ,CAAC,EAAE;YACf,OAAO,QAAQ,CAAC;QAClB,CAAC,CAAC;aACD,KAAK,CAAC,GAAG,CAAC,EAAE;YACX,OAAO,CAAC,GAAG,CAAC,GAAG,CAAC,CAAC;QACnB,CAAC,CAAC,CAAC;IACL,CAAC;CACF,CAAA;;YAnD2B,UAAU;YAAkB,MAAM;;AAFjD,mBAAmB;IAH/B,UAAU,CAAC;QACV,UAAU,EAAE,MAAM;KACnB,CAAC;GACW,mBAAmB,CAqD/B;SArDY,mBAAmB",
       "sourcesContent": [
-        "import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Router } from '@angular/router';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class EntryServiceService {\n\n  constructor(private http: HttpClient, private router: Router) { }\n\n  getEntries() {\n    this.http.get('/api/v1/entries/list').subscribe((data: any) => {\n      console.log('DATA: ', data);\n    }, error => {\n      console.log(error);\n    });\n  }\n}\n"
+        "import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Router } from '@angular/router';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class EntryServiceService {\n\n  constructor(private http: HttpClient, private router: Router) { }\n\n  async getEntries(): Promise<any> {\n    return this.http.get('/api/v1/entries/list').toPromise()\n      .then(response => {\n        return response;\n      })\n      .catch(err => {\n        console.log(err);\n      });\n  }\n\n  viewEntry(idParam: number): Promise<any> {\n    return this.http.get('/api/v1/entries/view-entry/' + idParam).toPromise()\n    .then(response => {\n      return response;\n    })\n    .catch(err => {\n      console.log(err);\n    });\n  }\n\n  createEntry(titleParam: string, contentParam: string): Promise<any>  {\n    return this.http.post('/api/v1/entries/create-entry', {title: titleParam, content: contentParam}).toPromise()\n    .then(response => {\n      return response;\n    })\n    .catch(err => {\n      console.log(err);\n    });\n  }\n\n  updateEntry(idParam: number, titleParam: string, contentParam: string): Promise<any> {\n    return this.http.put('/api/v1/entries/update-entry/' + idParam, {title: titleParam, content: contentParam}).toPromise()\n    .then(response => {\n      return response;\n    })\n    .catch(err => {\n      console.log(err);\n    });\n  }\n\n  deleteEntry(idParam: number): Promise<any> {\n    return this.http.delete('/api/v1/entries/delete-entry/' + idParam).toPromise()\n    .then(response => {\n      return response;\n    })\n    .catch(err => {\n      console.log(err);\n    });\n  }\n}\n"
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "637ba96de55c5ecdf9b7f536efb8196e65d91ebe"
+    "hash": "11e0cb51ca14d3305a7230eb822ce0d340e91c13"
   },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts",
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts",
     "statementMap": {
       "0": {
         "start": {
-          "line": 4,
+          "line": 6,
           "column": 27
         },
         "end": {
-          "line": 11,
+          "line": 46,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 6,
+          "line": 8,
           "column": 8
         },
         "end": {
-          "line": 6,
+          "line": 8,
           "column": 41
         }
       },
@@ -450,37 +918,676 @@
         },
         "end": {
           "line": 9,
-          "column": 39
+          "column": 27
         }
       },
       "3": {
         "start": {
-          "line": 12,
-          "column": 0
+          "line": 10,
+          "column": 8
+        },
+        "end": {
+          "line": 10,
+          "column": 29
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 8
         },
         "end": {
           "line": 14,
+          "column": 11
+        }
+      },
+      "5": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 35
+        }
+      },
+      "6": {
+        "start": {
+          "line": 18,
+          "column": 23
+        },
+        "end": {
+          "line": 18,
+          "column": 52
+        }
+      },
+      "7": {
+        "start": {
+          "line": 19,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 9
+        }
+      },
+      "8": {
+        "start": {
+          "line": 20,
+          "column": 12
+        },
+        "end": {
+          "line": 20,
+          "column": 52
+        }
+      },
+      "9": {
+        "start": {
+          "line": 21,
+          "column": 12
+        },
+        "end": {
+          "line": 21,
+          "column": 40
+        }
+      },
+      "10": {
+        "start": {
+          "line": 22,
+          "column": 12
+        },
+        "end": {
+          "line": 22,
+          "column": 28
+        }
+      },
+      "11": {
+        "start": {
+          "line": 26,
+          "column": 8
+        },
+        "end": {
+          "line": 30,
+          "column": 11
+        }
+      },
+      "12": {
+        "start": {
+          "line": 27,
+          "column": 24
+        },
+        "end": {
+          "line": 27,
+          "column": 66
+        }
+      },
+      "13": {
+        "start": {
+          "line": 28,
+          "column": 12
+        },
+        "end": {
+          "line": 28,
+          "column": 82
+        }
+      },
+      "14": {
+        "start": {
+          "line": 29,
+          "column": 12
+        },
+        "end": {
+          "line": 29,
+          "column": 86
+        }
+      },
+      "15": {
+        "start": {
+          "line": 33,
+          "column": 8
+        },
+        "end": {
+          "line": 33,
+          "column": 70
+        }
+      },
+      "16": {
+        "start": {
+          "line": 34,
+          "column": 8
+        },
+        "end": {
+          "line": 34,
+          "column": 51
+        }
+      },
+      "17": {
+        "start": {
+          "line": 37,
+          "column": 23
+        },
+        "end": {
+          "line": 37,
+          "column": 95
+        }
+      },
+      "18": {
+        "start": {
+          "line": 38,
+          "column": 8
+        },
+        "end": {
+          "line": 38,
+          "column": 42
+        }
+      },
+      "19": {
+        "start": {
+          "line": 41,
+          "column": 8
+        },
+        "end": {
+          "line": 41,
+          "column": 120
+        }
+      },
+      "20": {
+        "start": {
+          "line": 44,
+          "column": 8
+        },
+        "end": {
+          "line": 44,
+          "column": 129
+        }
+      },
+      "21": {
+        "start": {
+          "line": 47,
+          "column": 0
+        },
+        "end": {
+          "line": 51,
+          "column": 2
+        }
+      },
+      "22": {
+        "start": {
+          "line": 47,
+          "column": 44
+        },
+        "end": {
+          "line": 51,
+          "column": 1
+        }
+      },
+      "23": {
+        "start": {
+          "line": 52,
+          "column": 0
+        },
+        "end": {
+          "line": 58,
+          "column": 25
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 4
+          },
+          "end": {
+            "line": 7,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 45
+          },
+          "end": {
+            "line": 15,
+            "column": 5
+          }
+        },
+        "line": 7
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 4
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 15
+          },
+          "end": {
+            "line": 24,
+            "column": 5
+          }
+        },
+        "line": 16
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 4
+          },
+          "end": {
+            "line": 25,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 15
+          },
+          "end": {
+            "line": 31,
+            "column": 5
+          }
+        },
+        "line": 25
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 26,
+            "column": 55
+          },
+          "end": {
+            "line": 26,
+            "column": 56
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 68
+          },
+          "end": {
+            "line": 30,
+            "column": 9
+          }
+        },
+        "line": 26
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 4
+          },
+          "end": {
+            "line": 32,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 18
+          },
+          "end": {
+            "line": 35,
+            "column": 5
+          }
+        },
+        "line": 32
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 36,
+            "column": 4
+          },
+          "end": {
+            "line": 36,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 36,
+            "column": 19
+          },
+          "end": {
+            "line": 39,
+            "column": 5
+          }
+        },
+        "line": 36
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 40,
+            "column": 4
+          },
+          "end": {
+            "line": 40,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 40,
+            "column": 18
+          },
+          "end": {
+            "line": 42,
+            "column": 5
+          }
+        },
+        "line": 40
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 43,
+            "column": 4
+          },
+          "end": {
+            "line": 43,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 43,
+            "column": 18
+          },
+          "end": {
+            "line": 45,
+            "column": 5
+          }
+        },
+        "line": 43
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 47,
+            "column": 38
+          },
+          "end": {
+            "line": 47,
+            "column": 39
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 47,
+            "column": 44
+          },
+          "end": {
+            "line": 51,
+            "column": 1
+          }
+        },
+        "line": 47
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 8
+          },
+          "end": {
+            "line": 23,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 19,
+              "column": 8
+            },
+            "end": {
+              "line": 23,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 19,
+              "column": 8
+            },
+            "end": {
+              "line": 23,
+              "column": 9
+            }
+          }
+        ],
+        "line": 19
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 8
+          },
+          "end": {
+            "line": 33,
+            "column": 69
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 33,
+              "column": 30
+            },
+            "end": {
+              "line": 33,
+              "column": 48
+            }
+          },
+          {
+            "start": {
+              "line": 33,
+              "column": 51
+            },
+            "end": {
+              "line": 33,
+              "column": 69
+            }
+          }
+        ],
+        "line": 33
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 23
+          },
+          "end": {
+            "line": 37,
+            "column": 95
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 37,
+              "column": 45
+            },
+            "end": {
+              "line": 37,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 37,
+              "column": 63
+            },
+            "end": {
+              "line": 37,
+              "column": 95
+            }
+          }
+        ],
+        "line": 37
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 1,
+      "22": 1,
+      "23": 1
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 1
+    },
+    "b": {
+      "0": [
+        0,
+        0
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "file": "create-entry.component.js",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts"
+      ],
+      "names": [],
+      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAClD,OAAO,EAAE,mBAAmB,EAAE,MAAM,sCAAsC,CAAC;AAC3E,OAAO,EAAE,cAAc,EAAE,MAAM,EAAE,MAAM,iBAAiB,CAAC;AACzD,OAAO,EAAE,SAAS,EAAE,WAAW,EAAE,MAAM,gBAAgB,CAAC;AAOxD,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAU/B,YAAoB,YAAiC,EAAU,KAAqB,EAAU,MAAc;QAAxF,iBAAY,GAAZ,YAAY,CAAqB;QAAU,UAAK,GAAL,KAAK,CAAgB;QAAU,WAAM,GAAN,MAAM,CAAQ;QAL5G,cAAS,GAAG,IAAI,SAAS,CAAC;YACxB,KAAK,EAAE,IAAI,WAAW,CAAC,EAAE,CAAC;YAC1B,OAAO,EAAE,IAAI,WAAW,CAAC,EAAE,CAAC;SAC7B,CAAC,CAAC;IAE6G,CAAC;IAEjH,QAAQ;QACN,IAAI,CAAC,cAAc,GAAG,IAAI,CAAC;QAC3B,MAAM,MAAM,GAAG,IAAI,CAAC,KAAK,CAAC,QAAQ,CAAC,MAAM,CAAC,EAAE,CAAC;QAC7C,IAAI,MAAM,EAAE;YACV,IAAI,CAAC,EAAE,GAAG,IAAI,CAAC,KAAK,CAAC,QAAQ,CAAC,MAAM,CAAC,EAAE,CAAC;YACxC,IAAI,CAAC,cAAc,GAAG,KAAK,CAAC;YAC5B,IAAI,CAAC,QAAQ,EAAE,CAAC;SACjB;IACH,CAAC;IAEK,QAAQ;;YACZ,MAAM,GAAG,GAAG,MAAM,IAAI,CAAC,YAAY,CAAC,SAAS,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;YACvD,IAAI,CAAC,SAAS,CAAC,QAAQ,CAAC,OAAO,CAAC,CAAC,QAAQ,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC,CAAC;YACtE,IAAI,CAAC,SAAS,CAAC,QAAQ,CAAC,SAAS,CAAC,CAAC,QAAQ,CAAC,GAAG,CAAC,aAAa,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC,CAAC;QAC5E,CAAC;KAAA;IAED,WAAW;QACT,IAAI,CAAC,cAAc,CAAC,CAAC,CAAC,IAAI,CAAC,WAAW,EAAE,CAAC,CAAC,CAAC,IAAI,CAAC,WAAW,EAAE,CAAC;QAC9D,IAAI,CAAC,MAAM,CAAC,aAAa,CAAC,eAAe,CAAC,CAAC;IAC7C,CAAC;IAED,YAAY;QACV,MAAM,MAAM,GAAG,IAAI,CAAC,cAAc,CAAC,CAAC,CAAC,eAAe,CAAC,CAAC,CAAC,uBAAuB,IAAI,CAAC,EAAE,EAAE,CAAC;QACxF,IAAI,CAAC,MAAM,CAAC,aAAa,CAAC,MAAM,CAAC,CAAC;IACpC,CAAC;IAED,WAAW;QACT,IAAI,CAAC,YAAY,CAAC,WAAW,CAAC,IAAI,CAAC,SAAS,CAAC,QAAQ,CAAC,OAAO,CAAC,CAAC,KAAK,EAAE,IAAI,CAAC,SAAS,CAAC,QAAQ,CAAC,SAAS,CAAC,CAAC,KAAK,CAAC,CAAC;IAClH,CAAC;IAED,WAAW;QACT,IAAI,CAAC,YAAY,CAAC,WAAW,CAAC,IAAI,CAAC,EAAE,EAAE,IAAI,CAAC,SAAS,CAAC,QAAQ,CAAC,OAAO,CAAC,CAAC,KAAK,EAAE,IAAI,CAAC,SAAS,CAAC,QAAQ,CAAC,SAAS,CAAC,CAAC,KAAK,CAAC,CAAC;IAC3H,CAAC;CAEF,CAAA;;YApCmC,mBAAmB;YAAiB,cAAc;YAAkB,MAAM;;AAVjG,oBAAoB;IALhC,SAAS,CAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,+FAA4C;;KAE7C,CAAC;GACW,oBAAoB,CA8ChC;SA9CY,oBAAoB",
+      "sourcesContent": [
+        "import { Component, OnInit } from '@angular/core';\nimport { EntryServiceService } from '../../services/entry-service.service';\nimport { ActivatedRoute, Router } from '@angular/router';\nimport { FormGroup, FormControl } from '@angular/forms';\n\n@Component({\n  selector: 'app-create-entry',\n  templateUrl: './create-entry.component.html',\n  styleUrls: ['./create-entry.component.scss']\n})\nexport class CreateEntryComponent implements OnInit {\n\n  id: number;\n  isCreateAction: boolean;\n\n  entryForm = new FormGroup({\n    title: new FormControl(''),\n    content: new FormControl(''),\n  });\n\n  constructor(private entryService: EntryServiceService, private route: ActivatedRoute, private router: Router) { }\n\n  ngOnInit() {\n    this.isCreateAction = true;\n    const tempId = this.route.snapshot.params.id;\n    if (tempId) {\n      this.id = this.route.snapshot.params.id;\n      this.isCreateAction = false;\n      this.getEntry();\n    }\n  }\n\n  async getEntry() {\n    const res = await this.entryService.viewEntry(this.id);\n    this.entryForm.controls['title'].setValue(res.statusMessage[0].title);\n    this.entryForm.controls['content'].setValue(res.statusMessage[0].content);\n  }\n\n  entryAction() {\n    this.isCreateAction ? this.createEntry() : this.updateEntry();\n    this.router.navigateByUrl('/entries/list');\n  }\n\n  cancelAction() {\n    const navUrl = this.isCreateAction ? '/entries/list' : `/entries/view-entry/${this.id}`;\n    this.router.navigateByUrl(navUrl);\n  }\n\n  createEntry() {\n    this.entryService.createEntry(this.entryForm.controls['title'].value, this.entryForm.controls['content'].value);\n  }\n\n  updateEntry() {\n    this.entryService.updateEntry(this.id, this.entryForm.controls['title'].value, this.entryForm.controls['content'].value);\n  }\n\n}\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "9bec31159ebd3a9ddfac5445e522e062bd362406"
+  },
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/dashboard/dashboard.component.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/dashboard/dashboard.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 25
+        },
+        "end": {
+          "line": 13,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 6,
+          "column": 29
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 51
+        }
+      },
+      "3": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
           "column": 2
         }
       },
       "4": {
         "start": {
-          "line": 12,
-          "column": 44
+          "line": 14,
+          "column": 42
         },
         "end": {
-          "line": 14,
+          "line": 16,
           "column": 1
         }
       },
       "5": {
         "start": {
-          "line": 15,
+          "line": 17,
           "column": 0
         },
         "end": {
-          "line": 21,
-          "column": 25
+          "line": 23,
+          "column": 23
         }
       }
     },
@@ -500,7 +1607,7 @@
         "loc": {
           "start": {
             "line": 5,
-            "column": 30
+            "column": 24
           },
           "end": {
             "line": 7,
@@ -527,7 +1634,7 @@
             "column": 15
           },
           "end": {
-            "line": 10,
+            "line": 9,
             "column": 5
           }
         },
@@ -537,340 +1644,65 @@
         "name": "(anonymous_2)",
         "decl": {
           "start": {
-            "line": 12,
-            "column": 38
+            "line": 10,
+            "column": 4
           },
           "end": {
-            "line": 12,
-            "column": 39
+            "line": 10,
+            "column": 5
           }
         },
         "loc": {
           "start": {
+            "line": 10,
+            "column": 16
+          },
+          "end": {
             "line": 12,
-            "column": 44
+            "column": 5
+          }
+        },
+        "line": 10
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 36
           },
           "end": {
             "line": 14,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 42
+          },
+          "end": {
+            "line": 16,
             "column": 1
           }
         },
-        "line": 12
+        "line": 14
       }
     },
     "branchMap": {},
     "s": {
       "0": 1,
-      "1": 1,
-      "2": 1,
+      "1": 0,
+      "2": 0,
       "3": 1,
       "4": 1,
       "5": 1
     },
     "f": {
-      "0": 1,
-      "1": 1,
-      "2": 1
-    },
-    "b": {},
-    "inputSourceMap": {
-      "version": 3,
-      "file": "entries-list.component.js",
-      "sourceRoot": "",
-      "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts"
-      ],
-      "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAClD,OAAO,EAAE,mBAAmB,EAAE,MAAM,sCAAsC,CAAC;AAO3E,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAE/B,YAAoB,YAAiC;QAAjC,iBAAY,GAAZ,YAAY,CAAqB;IAAI,CAAC;IAE1D,QAAQ;QACN,IAAI,CAAC,YAAY,CAAC,UAAU,EAAE,CAAC;IACjC,CAAC;CAEF,CAAA;;YANmC,mBAAmB;;AAF1C,oBAAoB;IALhC,SAAS,CAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,+FAA4C;;KAE7C,CAAC;GACW,oBAAoB,CAQhC;SARY,oBAAoB",
-      "sourcesContent": [
-        "import { Component, OnInit } from '@angular/core';\nimport { EntryServiceService } from '../../services/entry-service.service';\n\n@Component({\n  selector: 'app-entries-list',\n  templateUrl: './entries-list.component.html',\n  styleUrls: ['./entries-list.component.scss']\n})\nexport class EntriesListComponent implements OnInit {\n\n  constructor(private entryService: EntryServiceService) { }\n\n  ngOnInit() {\n    this.entryService.getEntries();\n  }\n\n}\n"
-      ]
-    },
-    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "761f4e882e6434fd2bcb48011414ddf078cc1845"
-  },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 25
-        },
-        "end": {
-          "line": 7,
-          "column": 1
-        }
-      },
-      "1": {
-        "start": {
-          "line": 8,
-          "column": 0
-        },
-        "end": {
-          "line": 14,
-          "column": 23
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 4,
-            "column": 4
-          },
-          "end": {
-            "line": 4,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 4,
-            "column": 18
-          },
-          "end": {
-            "line": 4,
-            "column": 21
-          }
-        },
-        "line": 4
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 5,
-            "column": 4
-          },
-          "end": {
-            "line": 5,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 15
-          },
-          "end": {
-            "line": 6,
-            "column": 5
-          }
-        },
-        "line": 5
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 1,
-      "1": 1
-    },
-    "f": {
       "0": 0,
-      "1": 0
-    },
-    "b": {},
-    "inputSourceMap": {
-      "version": 3,
-      "file": "view-entry.component.js",
-      "sourceRoot": "",
-      "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts"
-      ],
-      "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAOlD,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;IAE7B,gBAAgB,CAAC;IAEjB,QAAQ;IACR,CAAC;CAEF,CAAA;AAPY,kBAAkB;IAL9B,SAAS,CAAC;QACT,QAAQ,EAAE,gBAAgB;QAC1B,6FAA0C;;KAE3C,CAAC;GACW,kBAAkB,CAO9B;SAPY,kBAAkB",
-      "sourcesContent": [
-        "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-view-entry',\n  templateUrl: './view-entry.component.html',\n  styleUrls: ['./view-entry.component.scss']\n})\nexport class ViewEntryComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit() {\n  }\n\n}\n"
-      ]
-    },
-    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "0f5a574ba175e119ddc92e64598bf8b847a06546"
-  },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 27
-        },
-        "end": {
-          "line": 7,
-          "column": 1
-        }
-      },
-      "1": {
-        "start": {
-          "line": 8,
-          "column": 0
-        },
-        "end": {
-          "line": 14,
-          "column": 25
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 4,
-            "column": 4
-          },
-          "end": {
-            "line": 4,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 4,
-            "column": 18
-          },
-          "end": {
-            "line": 4,
-            "column": 21
-          }
-        },
-        "line": 4
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 5,
-            "column": 4
-          },
-          "end": {
-            "line": 5,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 15
-          },
-          "end": {
-            "line": 6,
-            "column": 5
-          }
-        },
-        "line": 5
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 1,
-      "1": 1
-    },
-    "f": {
-      "0": 0,
-      "1": 0
-    },
-    "b": {},
-    "inputSourceMap": {
-      "version": 3,
-      "file": "create-entry.component.js",
-      "sourceRoot": "",
-      "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts"
-      ],
-      "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAOlD,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAE/B,gBAAgB,CAAC;IAEjB,QAAQ;IACR,CAAC;CAEF,CAAA;AAPY,oBAAoB;IALhC,SAAS,CAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,+FAA4C;;KAE7C,CAAC;GACW,oBAAoB,CAOhC;SAPY,oBAAoB",
-      "sourcesContent": [
-        "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-create-entry',\n  templateUrl: './create-entry.component.html',\n  styleUrls: ['./create-entry.component.scss']\n})\nexport class CreateEntryComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit() {\n  }\n\n}\n"
-      ]
-    },
-    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "26468f2e7c22332166bf13c168e611001eb73efe"
-  },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/dashboard/dashboard.component.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/dashboard/dashboard.component.ts",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 3,
-          "column": 25
-        },
-        "end": {
-          "line": 7,
-          "column": 1
-        }
-      },
-      "1": {
-        "start": {
-          "line": 8,
-          "column": 0
-        },
-        "end": {
-          "line": 14,
-          "column": 23
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 4,
-            "column": 4
-          },
-          "end": {
-            "line": 4,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 4,
-            "column": 18
-          },
-          "end": {
-            "line": 4,
-            "column": 21
-          }
-        },
-        "line": 4
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 5,
-            "column": 4
-          },
-          "end": {
-            "line": 5,
-            "column": 5
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 5,
-            "column": 15
-          },
-          "end": {
-            "line": 6,
-            "column": 5
-          }
-        },
-        "line": 5
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 1,
-      "1": 1
-    },
-    "f": {
-      "0": 0,
-      "1": 0
+      "1": 0,
+      "2": 0,
+      "3": 1
     },
     "b": {},
     "inputSourceMap": {
@@ -881,13 +1713,846 @@
         "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/dashboard/dashboard.component.ts"
       ],
       "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAOlD,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;IAE7B,gBAAgB,CAAC;IAEjB,QAAQ;IACR,CAAC;CAEF,CAAA;AAPY,kBAAkB;IAL9B,SAAS,CAAC;QACT,QAAQ,EAAE,eAAe;QACzB,4FAAyC;;KAE1C,CAAC;GACW,kBAAkB,CAO9B;SAPY,kBAAkB",
+      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAClD,OAAO,EAAE,MAAM,EAAE,aAAa,EAAE,MAAM,iBAAiB,CAAC;AAOxD,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;IAE7B,YAAoB,MAAc;QAAd,WAAM,GAAN,MAAM,CAAQ;IAAI,CAAC;IAEvC,QAAQ;IACR,CAAC;IAED,SAAS;QACP,IAAI,CAAC,MAAM,CAAC,aAAa,CAAC,eAAe,CAAC,CAAC;IAC7C,CAAC;CACF,CAAA;;YAR6B,MAAM;;AAFvB,kBAAkB;IAL9B,SAAS,CAAC;QACT,QAAQ,EAAE,eAAe;QACzB,4FAAyC;;KAE1C,CAAC;GACW,kBAAkB,CAU9B;SAVY,kBAAkB",
       "sourcesContent": [
-        "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-dashboard',\n  templateUrl: './dashboard.component.html',\n  styleUrls: ['./dashboard.component.scss']\n})\nexport class DashboardComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit() {\n  }\n\n}\n"
+        "import { Component, OnInit } from '@angular/core';\nimport { Router, NavigationEnd } from '@angular/router';\n\n@Component({\n  selector: 'app-dashboard',\n  templateUrl: './dashboard.component.html',\n  styleUrls: ['./dashboard.component.scss']\n})\nexport class DashboardComponent implements OnInit {\n\n  constructor(private router: Router) { }\n\n  ngOnInit() {\n  }\n\n  navToList() {\n    this.router.navigateByUrl('/entries/list');\n  }\n}\n"
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "13ede1b56d5eeac859b9218f31519809adbb566a"
+    "hash": "be77e3bd3852855b06fed4b028493cd539038c7b"
+  },
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 27
+        },
+        "end": {
+          "line": 28,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 8
+        },
+        "end": {
+          "line": 7,
+          "column": 41
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 8
+        },
+        "end": {
+          "line": 8,
+          "column": 29
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 11,
+          "column": 20
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 20,
+          "column": 11
+        }
+      },
+      "5": {
+        "start": {
+          "line": 15,
+          "column": 24
+        },
+        "end": {
+          "line": 15,
+          "column": 60
+        }
+      },
+      "6": {
+        "start": {
+          "line": 16,
+          "column": 12
+        },
+        "end": {
+          "line": 16,
+          "column": 45
+        }
+      },
+      "7": {
+        "start": {
+          "line": 17,
+          "column": 12
+        },
+        "end": {
+          "line": 19,
+          "column": 15
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 16
+        },
+        "end": {
+          "line": 18,
+          "column": 64
+        }
+      },
+      "9": {
+        "start": {
+          "line": 23,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 59
+        }
+      },
+      "10": {
+        "start": {
+          "line": 26,
+          "column": 8
+        },
+        "end": {
+          "line": 26,
+          "column": 42
+        }
+      },
+      "11": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 32,
+          "column": 2
+        }
+      },
+      "12": {
+        "start": {
+          "line": 29,
+          "column": 44
+        },
+        "end": {
+          "line": 32,
+          "column": 1
+        }
+      },
+      "13": {
+        "start": {
+          "line": 33,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 25
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 38
+          },
+          "end": {
+            "line": 9,
+            "column": 5
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 4
+          },
+          "end": {
+            "line": 10,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 15
+          },
+          "end": {
+            "line": 12,
+            "column": 5
+          }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 4
+          },
+          "end": {
+            "line": 13,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 11
+          },
+          "end": {
+            "line": 21,
+            "column": 5
+          }
+        },
+        "line": 13
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 55
+          },
+          "end": {
+            "line": 14,
+            "column": 56
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 68
+          },
+          "end": {
+            "line": 20,
+            "column": 9
+          }
+        },
+        "line": 14
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 42
+          },
+          "end": {
+            "line": 17,
+            "column": 43
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 47
+          },
+          "end": {
+            "line": 19,
+            "column": 13
+          }
+        },
+        "line": 17
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 4
+          },
+          "end": {
+            "line": 22,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 18
+          },
+          "end": {
+            "line": 24,
+            "column": 5
+          }
+        },
+        "line": 22
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 4
+          },
+          "end": {
+            "line": 25,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 20
+          },
+          "end": {
+            "line": 27,
+            "column": 5
+          }
+        },
+        "line": 25
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 29,
+            "column": 38
+          },
+          "end": {
+            "line": 29,
+            "column": 39
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 44
+          },
+          "end": {
+            "line": 32,
+            "column": 1
+          }
+        },
+        "line": 29
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 5,
+      "9": 0,
+      "10": 0,
+      "11": 1,
+      "12": 1,
+      "13": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 5,
+      "5": 0,
+      "6": 0,
+      "7": 1
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "entries-list.component.js",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts"
+      ],
+      "names": [],
+      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAClD,OAAO,EAAE,mBAAmB,EAAE,MAAM,sCAAsC,CAAC;AAC3E,OAAO,EAAE,MAAM,EAAE,MAAM,iBAAiB,CAAC;AAOzC,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAK/B,YAAoB,YAAiC,EAAU,MAAc;QAAzD,iBAAY,GAAZ,YAAY,CAAqB;QAAU,WAAM,GAAN,MAAM,CAAQ;IAAI,CAAC;IAElF,QAAQ;QACN,IAAI,CAAC,IAAI,EAAE,CAAC;IACd,CAAC;IAEK,IAAI;;YACR,MAAM,GAAG,GAAG,MAAM,IAAI,CAAC,YAAY,CAAC,UAAU,EAAE,CAAC;YACjD,IAAI,CAAC,OAAO,GAAG,GAAG,CAAC,aAAa,CAAC;YACjC,IAAI,CAAC,KAAK,GAAG,IAAI,CAAC,OAAO,CAAC,GAAG,CAAC,CAAC,CAAC,EAAE;gBAChC,OAAO,EAAE,GAAG,EAAE,qBAAqB,EAAE,KAAK,EAAE,CAAC,EAAC,CAAC;YACjD,CAAC,CAAC,CAAC;QACL,CAAC;KAAA;IAED,WAAW;QACT,IAAI,CAAC,MAAM,CAAC,aAAa,CAAC,uBAAuB,CAAC,CAAC;IACrD,CAAC;IAED,WAAW,CAAC,EAAU;QACpB,IAAI,CAAC,YAAY,CAAC,WAAW,CAAC,EAAE,CAAC,CAAC;IACpC,CAAC;CAEF,CAAA;;YAtBmC,mBAAmB;YAAkB,MAAM;;AALlE,oBAAoB;IALhC,SAAS,CAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,+FAA4C;;KAE7C,CAAC;GACW,oBAAoB,CA2BhC;SA3BY,oBAAoB",
+      "sourcesContent": [
+        "import { Component, OnInit } from '@angular/core';\nimport { EntryServiceService } from '../../services/entry-service.service';\nimport { Router } from '@angular/router';\n\n@Component({\n  selector: 'app-entries-list',\n  templateUrl: './entries-list.component.html',\n  styleUrls: ['./entries-list.component.scss']\n})\nexport class EntriesListComponent implements OnInit {\n\n  entries: any[];\n  links: any[];\n\n  constructor(private entryService: EntryServiceService, private router: Router) { }\n\n  ngOnInit() {\n    this.init();\n  }\n\n  async init() {\n    const res = await this.entryService.getEntries();\n    this.entries = res.statusMessage;\n    this.links = this.entries.map(e => {\n      return { url: '/entries/view-entry', entry: e};\n    });\n  }\n\n  navToCreate() {\n    this.router.navigateByUrl('/entries/create-entry');\n  }\n\n  deleteEntry(id: number) {\n    this.entryService.deleteEntry(id);\n  }\n\n}\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "d35f83aef11e2cce8bd29f94e176f520bbb6ccad"
+  },
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 25
+        },
+        "end": {
+          "line": 34,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 8
+        },
+        "end": {
+          "line": 7,
+          "column": 41
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 8
+        },
+        "end": {
+          "line": 8,
+          "column": 27
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 8
+        },
+        "end": {
+          "line": 9,
+          "column": 29
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 12,
+          "column": 48
+        }
+      },
+      "5": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 13,
+          "column": 20
+        }
+      },
+      "6": {
+        "start": {
+          "line": 16,
+          "column": 8
+        },
+        "end": {
+          "line": 20,
+          "column": 11
+        }
+      },
+      "7": {
+        "start": {
+          "line": 17,
+          "column": 24
+        },
+        "end": {
+          "line": 17,
+          "column": 66
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 12
+        },
+        "end": {
+          "line": 18,
+          "column": 52
+        }
+      },
+      "9": {
+        "start": {
+          "line": 19,
+          "column": 12
+        },
+        "end": {
+          "line": 19,
+          "column": 56
+        }
+      },
+      "10": {
+        "start": {
+          "line": 23,
+          "column": 8
+        },
+        "end": {
+          "line": 23,
+          "column": 70
+        }
+      },
+      "11": {
+        "start": {
+          "line": 26,
+          "column": 8
+        },
+        "end": {
+          "line": 26,
+          "column": 51
+        }
+      },
+      "12": {
+        "start": {
+          "line": 29,
+          "column": 8
+        },
+        "end": {
+          "line": 32,
+          "column": 11
+        }
+      },
+      "13": {
+        "start": {
+          "line": 30,
+          "column": 12
+        },
+        "end": {
+          "line": 30,
+          "column": 57
+        }
+      },
+      "14": {
+        "start": {
+          "line": 31,
+          "column": 12
+        },
+        "end": {
+          "line": 31,
+          "column": 55
+        }
+      },
+      "15": {
+        "start": {
+          "line": 35,
+          "column": 0
+        },
+        "end": {
+          "line": 39,
+          "column": 2
+        }
+      },
+      "16": {
+        "start": {
+          "line": 35,
+          "column": 42
+        },
+        "end": {
+          "line": 39,
+          "column": 1
+        }
+      },
+      "17": {
+        "start": {
+          "line": 40,
+          "column": 0
+        },
+        "end": {
+          "line": 46,
+          "column": 23
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 45
+          },
+          "end": {
+            "line": 10,
+            "column": 5
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 4
+          },
+          "end": {
+            "line": 11,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 15
+          },
+          "end": {
+            "line": 14,
+            "column": 5
+          }
+        },
+        "line": 11
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 4
+          },
+          "end": {
+            "line": 15,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 11
+          },
+          "end": {
+            "line": 21,
+            "column": 5
+          }
+        },
+        "line": 15
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 55
+          },
+          "end": {
+            "line": 16,
+            "column": 56
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 68
+          },
+          "end": {
+            "line": 20,
+            "column": 9
+          }
+        },
+        "line": 16
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 4
+          },
+          "end": {
+            "line": 22,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 18
+          },
+          "end": {
+            "line": 24,
+            "column": 5
+          }
+        },
+        "line": 22
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 4
+          },
+          "end": {
+            "line": 25,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 16
+          },
+          "end": {
+            "line": 27,
+            "column": 5
+          }
+        },
+        "line": 25
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 4
+          },
+          "end": {
+            "line": 28,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 18
+          },
+          "end": {
+            "line": 33,
+            "column": 5
+          }
+        },
+        "line": 28
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 29,
+            "column": 55
+          },
+          "end": {
+            "line": 29,
+            "column": 56
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 29,
+            "column": 68
+          },
+          "end": {
+            "line": 32,
+            "column": 9
+          }
+        },
+        "line": 29
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 35,
+            "column": 36
+          },
+          "end": {
+            "line": 35,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 35,
+            "column": 42
+          },
+          "end": {
+            "line": 39,
+            "column": 1
+          }
+        },
+        "line": 35
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 1,
+      "16": 1,
+      "17": 1
+    },
+    "f": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 1
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "view-entry.component.js",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts"
+      ],
+      "names": [],
+      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAClD,OAAO,EAAE,mBAAmB,EAAE,MAAM,sCAAsC,CAAC;AAC3E,OAAO,EAAE,cAAc,EAAE,MAAM,EAAE,MAAM,iBAAiB,CAAC;AAOzD,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;IAM7B,YAAoB,YAAiC,EAAU,KAAqB,EAAU,MAAc;QAAxF,iBAAY,GAAZ,YAAY,CAAqB;QAAU,UAAK,GAAL,KAAK,CAAgB;QAAU,WAAM,GAAN,MAAM,CAAQ;IAAI,CAAC;IAEjH,QAAQ;QACN,IAAI,CAAC,EAAE,GAAG,IAAI,CAAC,KAAK,CAAC,QAAQ,CAAC,MAAM,CAAC,EAAE,CAAC;QACxC,IAAI,CAAC,IAAI,EAAE,CAAC;IACd,CAAC;IAEK,IAAI;;YACR,MAAM,GAAG,GAAG,MAAM,IAAI,CAAC,YAAY,CAAC,SAAS,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;YACvD,IAAI,CAAC,KAAK,GAAG,GAAG,CAAC,aAAa,CAAC,CAAC,CAAC,CAAC,KAAK,CAAC;YACxC,IAAI,CAAC,OAAO,GAAG,GAAG,CAAC,aAAa,CAAC,CAAC,CAAC,CAAC,OAAO,CAAC;QAC9C,CAAC;KAAA;IAED,WAAW;QACT,IAAI,CAAC,MAAM,CAAC,aAAa,CAAC,wBAAwB,GAAG,IAAI,CAAC,EAAE,CAAC,CAAC;IAChE,CAAC;IAED,SAAS;QACP,IAAI,CAAC,MAAM,CAAC,aAAa,CAAC,eAAe,CAAC,CAAC;IAC7C,CAAC;IAEK,WAAW;;YACf,MAAM,IAAI,CAAC,YAAY,CAAC,WAAW,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;YAC7C,IAAI,CAAC,MAAM,CAAC,aAAa,CAAC,eAAe,CAAC,CAAC;QAC7C,CAAC;KAAA;CAEF,CAAA;;YA1BmC,mBAAmB;YAAiB,cAAc;YAAkB,MAAM;;AANjG,kBAAkB;IAL9B,SAAS,CAAC;QACT,QAAQ,EAAE,gBAAgB;QAC1B,6FAA0C;;KAE3C,CAAC;GACW,kBAAkB,CAgC9B;SAhCY,kBAAkB",
+      "sourcesContent": [
+        "import { Component, OnInit } from '@angular/core';\nimport { EntryServiceService } from '../../services/entry-service.service';\nimport { ActivatedRoute, Router } from '@angular/router';\n\n@Component({\n  selector: 'app-view-entry',\n  templateUrl: './view-entry.component.html',\n  styleUrls: ['./view-entry.component.scss']\n})\nexport class ViewEntryComponent implements OnInit {\n\n  id: number;\n  title: string;\n  content: string;\n\n  constructor(private entryService: EntryServiceService, private route: ActivatedRoute, private router: Router) { }\n\n  ngOnInit() {\n    this.id = this.route.snapshot.params.id;\n    this.init();\n  }\n\n  async init() {\n    const res = await this.entryService.viewEntry(this.id);\n    this.title = res.statusMessage[0].title;\n    this.content = res.statusMessage[0].content;\n  }\n\n  navToUpdate() {\n    this.router.navigateByUrl('/entries/update-entry/' + this.id);\n  }\n\n  navToList() {\n    this.router.navigateByUrl('/entries/list');\n  }\n\n  async deleteEntry() {\n    await this.entryService.deleteEntry(this.id);\n    this.router.navigateByUrl('/entries/list');\n  }\n\n}\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "eaddad237302ea7463117b411fec88017f11c61f"
   },
   "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries-routing.module.ts": {
     "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries-routing.module.ts",
@@ -898,27 +2563,27 @@
           "column": 15
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 14,
+          "line": 15,
           "column": 32
         },
         "end": {
-          "line": 15,
+          "line": 16,
           "column": 1
         }
       },
       "2": {
         "start": {
-          "line": 16,
+          "line": 17,
           "column": 0
         },
         "end": {
-          "line": 21,
+          "line": 22,
           "column": 30
         }
       }
@@ -940,34 +2605,34 @@
         "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries-routing.module.ts"
       ],
       "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,YAAY,EAAU,MAAM,iBAAiB,CAAC;AACvD,OAAO,EAAE,kBAAkB,EAAE,MAAM,4CAA4C,CAAC;AAChF,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAClF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AAExF,MAAM,MAAM,GAAW;IACrB,EAAE,IAAI,EAAE,WAAW,EAAE,SAAS,EAAE,kBAAkB,EAAE;IACpD,EAAE,IAAI,EAAE,wBAAwB,EAAE,SAAS,EAAE,kBAAkB,EAAE;IACjE,EAAE,IAAI,EAAE,cAAc,EAAE,SAAS,EAAE,oBAAoB,EAAE;IACzD,EAAE,IAAI,EAAE,sBAAsB,EAAE,SAAS,EAAE,oBAAoB,EAAE;CAClE,CAAC;AAMF,IAAa,yBAAyB,GAAtC,MAAa,yBAAyB;CAAI,CAAA;AAA7B,yBAAyB;IAJrC,QAAQ,CAAC;QACR,OAAO,EAAE,CAAE,YAAY,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAE;QAC1C,OAAO,EAAE,CAAE,YAAY,CAAE;KAC1B,CAAC;GACW,yBAAyB,CAAI;SAA7B,yBAAyB",
+      "mappings": ";AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,YAAY,EAAU,MAAM,iBAAiB,CAAC;AACvD,OAAO,EAAE,kBAAkB,EAAE,MAAM,4CAA4C,CAAC;AAChF,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAClF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AAExF,MAAM,MAAM,GAAW;IACrB,EAAE,IAAI,EAAE,WAAW,EAAE,SAAS,EAAE,kBAAkB,EAAE;IACpD,EAAE,IAAI,EAAE,wBAAwB,EAAE,SAAS,EAAE,kBAAkB,EAAE;IACjE,EAAE,IAAI,EAAE,cAAc,EAAE,SAAS,EAAE,oBAAoB,EAAE;IACzD,EAAE,IAAI,EAAE,sBAAsB,EAAE,SAAS,EAAE,oBAAoB,EAAE;IACjE,EAAE,IAAI,EAAE,0BAA0B,EAAE,SAAS,EAAE,oBAAoB,EAAE;CACtE,CAAC;AAMF,IAAa,yBAAyB,GAAtC,MAAa,yBAAyB;CAAI,CAAA;AAA7B,yBAAyB;IAJrC,QAAQ,CAAC;QACR,OAAO,EAAE,CAAE,YAAY,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAE;QAC1C,OAAO,EAAE,CAAE,YAAY,CAAE;KAC1B,CAAC;GACW,yBAAyB,CAAI;SAA7B,yBAAyB",
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { DashboardComponent } from './components/dashboard/dashboard.component';\nimport { ViewEntryComponent } from './components/view-entry/view-entry.component';\nimport { EntriesListComponent } from './components/entries-list/entries-list.component';\nimport { CreateEntryComponent } from './components/create-entry/create-entry.component';\n\nconst routes: Routes = [\n  { path: 'dashboard', component: DashboardComponent },\n  { path: 'entries/view-entry/:id', component: ViewEntryComponent },\n  { path: 'entries/list', component: EntriesListComponent },\n  { path: 'entries/create-entry', component: CreateEntryComponent }\n];\n\n@NgModule({\n  imports: [ RouterModule.forChild(routes) ],\n  exports: [ RouterModule ]\n})\nexport class DiaryEntriesRoutingModule { }\n"
+        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { DashboardComponent } from './components/dashboard/dashboard.component';\nimport { ViewEntryComponent } from './components/view-entry/view-entry.component';\nimport { EntriesListComponent } from './components/entries-list/entries-list.component';\nimport { CreateEntryComponent } from './components/create-entry/create-entry.component';\n\nconst routes: Routes = [\n  { path: 'dashboard', component: DashboardComponent },\n  { path: 'entries/view-entry/:id', component: ViewEntryComponent },\n  { path: 'entries/list', component: EntriesListComponent },\n  { path: 'entries/create-entry', component: CreateEntryComponent },\n  { path: 'entries/update-entry/:id', component: CreateEntryComponent }\n];\n\n@NgModule({\n  imports: [ RouterModule.forChild(routes) ],\n  exports: [ RouterModule ]\n})\nexport class DiaryEntriesRoutingModule { }\n"
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "0541ee516ef867c34e57c0d3bcab625400dcfa30"
+    "hash": "a15a5ddfbf7786f4ed00e9c6c452c548376bba23"
   },
   "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries.module.ts": {
     "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries.module.ts",
     "statementMap": {
       "0": {
         "start": {
-          "line": 12,
+          "line": 17,
           "column": 25
         },
         "end": {
-          "line": 13,
+          "line": 18,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 14,
+          "line": 19,
           "column": 0
         },
         "end": {
-          "line": 32,
+          "line": 42,
           "column": 23
         }
       }
@@ -988,13 +2653,13 @@
         "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries.module.ts"
       ],
       "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAC1D,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AACxD,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAClF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,kBAAkB,EAAE,MAAM,4CAA4C,CAAC;AAChF,OAAO,EAAE,yBAAyB,EAAE,MAAM,gCAAgC,CAAC;AAC3E,OAAO,EAAE,mBAAmB,EAAE,MAAM,kCAAkC,CAAC;AAqBvE,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;CAAI,CAAA;AAAtB,kBAAkB;IAjB9B,QAAQ,CAAC;QACR,YAAY,EAAE;YACZ,oBAAoB;YACpB,kBAAkB;YAClB,oBAAoB;YACpB,kBAAkB;SACnB;QACD,OAAO,EAAE;YACP,YAAY;YACZ,yBAAyB;YACzB,aAAa;YACb,gBAAgB;SACjB;QACD,SAAS,EAAE;YACT,mBAAmB;SACpB;KACF,CAAC;GACW,kBAAkB,CAAI;SAAtB,kBAAkB",
+      "mappings": ";AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AACxD,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,mBAAmB,EAAE,MAAM,gBAAgB,CAAC;AACrD,OAAO,EAAE,eAAe,EAAE,MAAM,0BAA0B,CAAC;AAC3D,OAAO,EAAE,aAAa,EAAE,MAAM,wBAAwB,CAAC;AACvD,OAAO,EAAE,cAAc,EAAE,MAAM,yBAAyB,CAAC;AACzD,OAAO,EAAE,aAAa,EAAE,MAAM,wBAAwB,CAAC;AACvD,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAE1D,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,kBAAkB,EAAE,MAAM,4CAA4C,CAAC;AAChF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAClF,OAAO,EAAE,yBAAyB,EAAE,MAAM,gCAAgC,CAAC;AAC3E,OAAO,EAAE,mBAAmB,EAAE,MAAM,kCAAkC,CAAC;AAwBvE,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;CAAI,CAAA;AAAtB,kBAAkB;IAtB9B,QAAQ,CAAC;QACR,YAAY,EAAE;YACZ,oBAAoB;YACpB,kBAAkB;YAClB,oBAAoB;YACpB,kBAAkB;SACnB;QACD,OAAO,EAAE;YACP,YAAY;YACZ,yBAAyB;YACzB,aAAa;YACb,eAAe;YACf,aAAa;YACb,cAAc;YACd,mBAAmB;YACnB,aAAa;YACb,gBAAgB;SACjB;QACD,SAAS,EAAE;YACT,mBAAmB;SACpB;KACF,CAAC;GACW,kBAAkB,CAAI;SAAtB,kBAAkB",
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\nimport { HttpClientModule } from '@angular/common/http';\nimport { CommonModule } from '@angular/common';\nimport { EntriesListComponent } from './components/entries-list/entries-list.component';\nimport { ViewEntryComponent } from './components/view-entry/view-entry.component';\nimport { CreateEntryComponent } from './components/create-entry/create-entry.component';\nimport { DashboardComponent } from './components/dashboard/dashboard.component';\nimport { DiaryEntriesRoutingModule } from './diary-entries-routing.module';\nimport { EntryServiceService } from './services/entry-service.service';\n\n\n\n@NgModule({\n  declarations: [\n    EntriesListComponent,\n    ViewEntryComponent,\n    CreateEntryComponent,\n    DashboardComponent\n  ],\n  imports: [\n    CommonModule,\n    DiaryEntriesRoutingModule,\n    BrowserModule,\n    HttpClientModule\n  ],\n  providers: [\n    EntryServiceService\n  ]\n})\nexport class DiaryEntriesModule { }\n"
+        "import { CommonModule } from '@angular/common';\nimport { HttpClientModule } from '@angular/common/http';\nimport { NgModule } from '@angular/core';\nimport { ReactiveFormsModule } from '@angular/forms';\nimport { MatButtonModule } from '@angular/material/button';\nimport { MatIconModule } from '@angular/material/icon';\nimport { MatInputModule } from '@angular/material/input';\nimport { MatListModule } from '@angular/material/list';\nimport { BrowserModule } from '@angular/platform-browser';\n\nimport { CreateEntryComponent } from './components/create-entry/create-entry.component';\nimport { DashboardComponent } from './components/dashboard/dashboard.component';\nimport { EntriesListComponent } from './components/entries-list/entries-list.component';\nimport { ViewEntryComponent } from './components/view-entry/view-entry.component';\nimport { DiaryEntriesRoutingModule } from './diary-entries-routing.module';\nimport { EntryServiceService } from './services/entry-service.service';\n\n@NgModule({\n  declarations: [\n    EntriesListComponent,\n    ViewEntryComponent,\n    CreateEntryComponent,\n    DashboardComponent\n  ],\n  imports: [\n    CommonModule,\n    DiaryEntriesRoutingModule,\n    BrowserModule,\n    MatButtonModule,\n    MatListModule,\n    MatInputModule,\n    ReactiveFormsModule,\n    MatIconModule,\n    HttpClientModule\n  ],\n  providers: [\n    EntryServiceService\n  ]\n})\nexport class DiaryEntriesModule { }\n"
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "fcb6e0001e61aedf6f820614c727c0e16cf15504"
+    "hash": "60a3dc3ca574518295b56731542dfa54ac9d45ba"
   },
   "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/app.module.ts": {
     "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/app.module.ts",
@@ -1219,1462 +2884,5 @@
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
     "hash": "649ecf4c7ceff127651d22c7167334fd6b6968a5"
-  },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/app.js": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/app.js",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 14
-        },
-        "end": {
-          "line": 1,
-          "column": 32
-        }
-      },
-      "1": {
-        "start": {
-          "line": 2,
-          "column": 11
-        },
-        "end": {
-          "line": 2,
-          "column": 26
-        }
-      },
-      "2": {
-        "start": {
-          "line": 3,
-          "column": 19
-        },
-        "end": {
-          "line": 3,
-          "column": 43
-        }
-      },
-      "3": {
-        "start": {
-          "line": 4,
-          "column": 17
-        },
-        "end": {
-          "line": 4,
-          "column": 39
-        }
-      },
-      "4": {
-        "start": {
-          "line": 6,
-          "column": 14
-        },
-        "end": {
-          "line": 6,
-          "column": 41
-        }
-      },
-      "5": {
-        "start": {
-          "line": 8,
-          "column": 10
-        },
-        "end": {
-          "line": 8,
-          "column": 19
-        }
-      },
-      "6": {
-        "start": {
-          "line": 10,
-          "column": 0
-        },
-        "end": {
-          "line": 10,
-          "column": 58
-        }
-      },
-      "7": {
-        "start": {
-          "line": 12,
-          "column": 0
-        },
-        "end": {
-          "line": 12,
-          "column": 27
-        }
-      },
-      "8": {
-        "start": {
-          "line": 13,
-          "column": 0
-        },
-        "end": {
-          "line": 13,
-          "column": 52
-        }
-      },
-      "9": {
-        "start": {
-          "line": 14,
-          "column": 0
-        },
-        "end": {
-          "line": 14,
-          "column": 23
-        }
-      },
-      "10": {
-        "start": {
-          "line": 16,
-          "column": 0
-        },
-        "end": {
-          "line": 16,
-          "column": 36
-        }
-      },
-      "11": {
-        "start": {
-          "line": 18,
-          "column": 0
-        },
-        "end": {
-          "line": 18,
-          "column": 21
-        }
-      }
-    },
-    "fnMap": {},
-    "branchMap": {},
-    "s": {
-      "0": 1,
-      "1": 1,
-      "2": 1,
-      "3": 1,
-      "4": 1,
-      "5": 1,
-      "6": 1,
-      "7": 1,
-      "8": 1,
-      "9": 1,
-      "10": 1,
-      "11": 1
-    },
-    "f": {},
-    "b": {},
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "3e76e739b43e4e0b35454f9d7ba7b9f86a26d5aa"
-  },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/routes/entries.js": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/routes/entries.js",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 14
-        },
-        "end": {
-          "line": 1,
-          "column": 32
-        }
-      },
-      "1": {
-        "start": {
-          "line": 2,
-          "column": 13
-        },
-        "end": {
-          "line": 2,
-          "column": 29
-        }
-      },
-      "2": {
-        "start": {
-          "line": 3,
-          "column": 19
-        },
-        "end": {
-          "line": 3,
-          "column": 55
-        }
-      },
-      "3": {
-        "start": {
-          "line": 4,
-          "column": 14
-        },
-        "end": {
-          "line": 4,
-          "column": 30
-        }
-      },
-      "4": {
-        "start": {
-          "line": 6,
-          "column": 11
-        },
-        "end": {
-          "line": 11,
-          "column": 2
-        }
-      },
-      "5": {
-        "start": {
-          "line": 13,
-          "column": 0
-        },
-        "end": {
-          "line": 18,
-          "column": 3
-        }
-      },
-      "6": {
-        "start": {
-          "line": 14,
-          "column": 2
-        },
-        "end": {
-          "line": 16,
-          "column": 3
-        }
-      },
-      "7": {
-        "start": {
-          "line": 15,
-          "column": 6
-        },
-        "end": {
-          "line": 15,
-          "column": 16
-        }
-      },
-      "8": {
-        "start": {
-          "line": 17,
-          "column": 2
-        },
-        "end": {
-          "line": 17,
-          "column": 39
-        }
-      },
-      "9": {
-        "start": {
-          "line": 21,
-          "column": 0
-        },
-        "end": {
-          "line": 30,
-          "column": 3
-        }
-      },
-      "10": {
-        "start": {
-          "line": 23,
-          "column": 2
-        },
-        "end": {
-          "line": 29,
-          "column": 5
-        }
-      },
-      "11": {
-        "start": {
-          "line": 24,
-          "column": 4
-        },
-        "end": {
-          "line": 28,
-          "column": 5
-        }
-      },
-      "12": {
-        "start": {
-          "line": 25,
-          "column": 6
-        },
-        "end": {
-          "line": 25,
-          "column": 23
-        }
-      },
-      "13": {
-        "start": {
-          "line": 27,
-          "column": 6
-        },
-        "end": {
-          "line": 27,
-          "column": 61
-        }
-      },
-      "14": {
-        "start": {
-          "line": 32,
-          "column": 0
-        },
-        "end": {
-          "line": 56,
-          "column": 3
-        }
-      },
-      "15": {
-        "start": {
-          "line": 34,
-          "column": 15
-        },
-        "end": {
-          "line": 34,
-          "column": 23
-        }
-      },
-      "16": {
-        "start": {
-          "line": 35,
-          "column": 1
-        },
-        "end": {
-          "line": 55,
-          "column": 2
-        }
-      },
-      "17": {
-        "start": {
-          "line": 37,
-          "column": 18
-        },
-        "end": {
-          "line": 37,
-          "column": 144
-        }
-      },
-      "18": {
-        "start": {
-          "line": 38,
-          "column": 4
-        },
-        "end": {
-          "line": 44,
-          "column": 7
-        }
-      },
-      "19": {
-        "start": {
-          "line": 39,
-          "column": 6
-        },
-        "end": {
-          "line": 43,
-          "column": 7
-        }
-      },
-      "20": {
-        "start": {
-          "line": 40,
-          "column": 8
-        },
-        "end": {
-          "line": 40,
-          "column": 25
-        }
-      },
-      "21": {
-        "start": {
-          "line": 42,
-          "column": 8
-        },
-        "end": {
-          "line": 42,
-          "column": 63
-        }
-      },
-      "22": {
-        "start": {
-          "line": 48,
-          "column": 2
-        },
-        "end": {
-          "line": 51,
-          "column": 3
-        }
-      },
-      "23": {
-        "start": {
-          "line": 50,
-          "column": 9
-        },
-        "end": {
-          "line": 50,
-          "column": 61
-        }
-      },
-      "24": {
-        "start": {
-          "line": 54,
-          "column": 2
-        },
-        "end": {
-          "line": 54,
-          "column": 19
-        }
-      },
-      "25": {
-        "start": {
-          "line": 58,
-          "column": 0
-        },
-        "end": {
-          "line": 76,
-          "column": 3
-        }
-      },
-      "26": {
-        "start": {
-          "line": 60,
-          "column": 1
-        },
-        "end": {
-          "line": 75,
-          "column": 2
-        }
-      },
-      "27": {
-        "start": {
-          "line": 62,
-          "column": 18
-        },
-        "end": {
-          "line": 62,
-          "column": 75
-        }
-      },
-      "28": {
-        "start": {
-          "line": 63,
-          "column": 4
-        },
-        "end": {
-          "line": 69,
-          "column": 7
-        }
-      },
-      "29": {
-        "start": {
-          "line": 64,
-          "column": 6
-        },
-        "end": {
-          "line": 68,
-          "column": 7
-        }
-      },
-      "30": {
-        "start": {
-          "line": 65,
-          "column": 8
-        },
-        "end": {
-          "line": 65,
-          "column": 25
-        }
-      },
-      "31": {
-        "start": {
-          "line": 67,
-          "column": 8
-        },
-        "end": {
-          "line": 67,
-          "column": 63
-        }
-      },
-      "32": {
-        "start": {
-          "line": 74,
-          "column": 2
-        },
-        "end": {
-          "line": 74,
-          "column": 19
-        }
-      },
-      "33": {
-        "start": {
-          "line": 79,
-          "column": 0
-        },
-        "end": {
-          "line": 98,
-          "column": 3
-        }
-      },
-      "34": {
-        "start": {
-          "line": 81,
-          "column": 15
-        },
-        "end": {
-          "line": 81,
-          "column": 23
-        }
-      },
-      "35": {
-        "start": {
-          "line": 82,
-          "column": 1
-        },
-        "end": {
-          "line": 97,
-          "column": 2
-        }
-      },
-      "36": {
-        "start": {
-          "line": 84,
-          "column": 18
-        },
-        "end": {
-          "line": 84,
-          "column": 139
-        }
-      },
-      "37": {
-        "start": {
-          "line": 85,
-          "column": 4
-        },
-        "end": {
-          "line": 91,
-          "column": 7
-        }
-      },
-      "38": {
-        "start": {
-          "line": 86,
-          "column": 6
-        },
-        "end": {
-          "line": 90,
-          "column": 7
-        }
-      },
-      "39": {
-        "start": {
-          "line": 87,
-          "column": 8
-        },
-        "end": {
-          "line": 87,
-          "column": 25
-        }
-      },
-      "40": {
-        "start": {
-          "line": 89,
-          "column": 8
-        },
-        "end": {
-          "line": 89,
-          "column": 63
-        }
-      },
-      "41": {
-        "start": {
-          "line": 96,
-          "column": 2
-        },
-        "end": {
-          "line": 96,
-          "column": 19
-        }
-      },
-      "42": {
-        "start": {
-          "line": 101,
-          "column": 0
-        },
-        "end": {
-          "line": 119,
-          "column": 3
-        }
-      },
-      "43": {
-        "start": {
-          "line": 103,
-          "column": 1
-        },
-        "end": {
-          "line": 118,
-          "column": 2
-        }
-      },
-      "44": {
-        "start": {
-          "line": 105,
-          "column": 18
-        },
-        "end": {
-          "line": 105,
-          "column": 73
-        }
-      },
-      "45": {
-        "start": {
-          "line": 106,
-          "column": 4
-        },
-        "end": {
-          "line": 112,
-          "column": 7
-        }
-      },
-      "46": {
-        "start": {
-          "line": 107,
-          "column": 6
-        },
-        "end": {
-          "line": 111,
-          "column": 7
-        }
-      },
-      "47": {
-        "start": {
-          "line": 108,
-          "column": 8
-        },
-        "end": {
-          "line": 108,
-          "column": 25
-        }
-      },
-      "48": {
-        "start": {
-          "line": 110,
-          "column": 8
-        },
-        "end": {
-          "line": 110,
-          "column": 63
-        }
-      },
-      "49": {
-        "start": {
-          "line": 117,
-          "column": 2
-        },
-        "end": {
-          "line": 117,
-          "column": 19
-        }
-      },
-      "50": {
-        "start": {
-          "line": 121,
-          "column": 0
-        },
-        "end": {
-          "line": 121,
-          "column": 24
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 13,
-            "column": 11
-          },
-          "end": {
-            "line": 13,
-            "column": 12
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 13,
-            "column": 20
-          },
-          "end": {
-            "line": 18,
-            "column": 1
-          }
-        },
-        "line": 13
-      },
-      "1": {
-        "name": "(anonymous_1)",
-        "decl": {
-          "start": {
-            "line": 21,
-            "column": 20
-          },
-          "end": {
-            "line": 21,
-            "column": 21
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 22,
-            "column": 0
-          },
-          "end": {
-            "line": 30,
-            "column": 1
-          }
-        },
-        "line": 22
-      },
-      "2": {
-        "name": "(anonymous_2)",
-        "decl": {
-          "start": {
-            "line": 23,
-            "column": 36
-          },
-          "end": {
-            "line": 23,
-            "column": 37
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 23,
-            "column": 61
-          },
-          "end": {
-            "line": 29,
-            "column": 3
-          }
-        },
-        "line": 23
-      },
-      "3": {
-        "name": "(anonymous_3)",
-        "decl": {
-          "start": {
-            "line": 32,
-            "column": 29
-          },
-          "end": {
-            "line": 32,
-            "column": 30
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 33,
-            "column": 0
-          },
-          "end": {
-            "line": 56,
-            "column": 1
-          }
-        },
-        "line": 33
-      },
-      "4": {
-        "name": "(anonymous_4)",
-        "decl": {
-          "start": {
-            "line": 38,
-            "column": 20
-          },
-          "end": {
-            "line": 38,
-            "column": 21
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 38,
-            "column": 45
-          },
-          "end": {
-            "line": 44,
-            "column": 5
-          }
-        },
-        "line": 38
-      },
-      "5": {
-        "name": "(anonymous_5)",
-        "decl": {
-          "start": {
-            "line": 58,
-            "column": 30
-          },
-          "end": {
-            "line": 58,
-            "column": 31
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 59,
-            "column": 0
-          },
-          "end": {
-            "line": 76,
-            "column": 1
-          }
-        },
-        "line": 59
-      },
-      "6": {
-        "name": "(anonymous_6)",
-        "decl": {
-          "start": {
-            "line": 63,
-            "column": 20
-          },
-          "end": {
-            "line": 63,
-            "column": 21
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 63,
-            "column": 45
-          },
-          "end": {
-            "line": 69,
-            "column": 5
-          }
-        },
-        "line": 63
-      },
-      "7": {
-        "name": "(anonymous_7)",
-        "decl": {
-          "start": {
-            "line": 79,
-            "column": 32
-          },
-          "end": {
-            "line": 79,
-            "column": 33
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 80,
-            "column": 0
-          },
-          "end": {
-            "line": 98,
-            "column": 1
-          }
-        },
-        "line": 80
-      },
-      "8": {
-        "name": "(anonymous_8)",
-        "decl": {
-          "start": {
-            "line": 85,
-            "column": 20
-          },
-          "end": {
-            "line": 85,
-            "column": 21
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 85,
-            "column": 45
-          },
-          "end": {
-            "line": 91,
-            "column": 5
-          }
-        },
-        "line": 85
-      },
-      "9": {
-        "name": "(anonymous_9)",
-        "decl": {
-          "start": {
-            "line": 101,
-            "column": 35
-          },
-          "end": {
-            "line": 101,
-            "column": 36
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 102,
-            "column": 0
-          },
-          "end": {
-            "line": 119,
-            "column": 1
-          }
-        },
-        "line": 102
-      },
-      "10": {
-        "name": "(anonymous_10)",
-        "decl": {
-          "start": {
-            "line": 106,
-            "column": 20
-          },
-          "end": {
-            "line": 106,
-            "column": 21
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 106,
-            "column": 45
-          },
-          "end": {
-            "line": 112,
-            "column": 5
-          }
-        },
-        "line": 106
-      }
-    },
-    "branchMap": {
-      "0": {
-        "loc": {
-          "start": {
-            "line": 14,
-            "column": 2
-          },
-          "end": {
-            "line": 16,
-            "column": 3
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 14,
-              "column": 2
-            },
-            "end": {
-              "line": 16,
-              "column": 3
-            }
-          },
-          {
-            "start": {
-              "line": 14,
-              "column": 2
-            },
-            "end": {
-              "line": 16,
-              "column": 3
-            }
-          }
-        ],
-        "line": 14
-      },
-      "1": {
-        "loc": {
-          "start": {
-            "line": 24,
-            "column": 4
-          },
-          "end": {
-            "line": 28,
-            "column": 5
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 24,
-              "column": 4
-            },
-            "end": {
-              "line": 28,
-              "column": 5
-            }
-          },
-          {
-            "start": {
-              "line": 24,
-              "column": 4
-            },
-            "end": {
-              "line": 28,
-              "column": 5
-            }
-          }
-        ],
-        "line": 24
-      },
-      "2": {
-        "loc": {
-          "start": {
-            "line": 39,
-            "column": 6
-          },
-          "end": {
-            "line": 43,
-            "column": 7
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 39,
-              "column": 6
-            },
-            "end": {
-              "line": 43,
-              "column": 7
-            }
-          },
-          {
-            "start": {
-              "line": 39,
-              "column": 6
-            },
-            "end": {
-              "line": 43,
-              "column": 7
-            }
-          }
-        ],
-        "line": 39
-      },
-      "3": {
-        "loc": {
-          "start": {
-            "line": 48,
-            "column": 2
-          },
-          "end": {
-            "line": 51,
-            "column": 3
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 48,
-              "column": 2
-            },
-            "end": {
-              "line": 51,
-              "column": 3
-            }
-          },
-          {
-            "start": {
-              "line": 48,
-              "column": 2
-            },
-            "end": {
-              "line": 51,
-              "column": 3
-            }
-          }
-        ],
-        "line": 48
-      },
-      "4": {
-        "loc": {
-          "start": {
-            "line": 64,
-            "column": 6
-          },
-          "end": {
-            "line": 68,
-            "column": 7
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 64,
-              "column": 6
-            },
-            "end": {
-              "line": 68,
-              "column": 7
-            }
-          },
-          {
-            "start": {
-              "line": 64,
-              "column": 6
-            },
-            "end": {
-              "line": 68,
-              "column": 7
-            }
-          }
-        ],
-        "line": 64
-      },
-      "5": {
-        "loc": {
-          "start": {
-            "line": 86,
-            "column": 6
-          },
-          "end": {
-            "line": 90,
-            "column": 7
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 86,
-              "column": 6
-            },
-            "end": {
-              "line": 90,
-              "column": 7
-            }
-          },
-          {
-            "start": {
-              "line": 86,
-              "column": 6
-            },
-            "end": {
-              "line": 90,
-              "column": 7
-            }
-          }
-        ],
-        "line": 86
-      },
-      "6": {
-        "loc": {
-          "start": {
-            "line": 107,
-            "column": 6
-          },
-          "end": {
-            "line": 111,
-            "column": 7
-          }
-        },
-        "type": "if",
-        "locations": [
-          {
-            "start": {
-              "line": 107,
-              "column": 6
-            },
-            "end": {
-              "line": 111,
-              "column": 7
-            }
-          },
-          {
-            "start": {
-              "line": 107,
-              "column": 6
-            },
-            "end": {
-              "line": 111,
-              "column": 7
-            }
-          }
-        ],
-        "line": 107
-      }
-    },
-    "s": {
-      "0": 1,
-      "1": 1,
-      "2": 1,
-      "3": 1,
-      "4": 1,
-      "5": 1,
-      "6": 1,
-      "7": 0,
-      "8": 1,
-      "9": 1,
-      "10": 0,
-      "11": 0,
-      "12": 0,
-      "13": 0,
-      "14": 1,
-      "15": 0,
-      "16": 0,
-      "17": 0,
-      "18": 0,
-      "19": 0,
-      "20": 0,
-      "21": 0,
-      "22": 0,
-      "23": 0,
-      "24": 0,
-      "25": 1,
-      "26": 0,
-      "27": 0,
-      "28": 0,
-      "29": 0,
-      "30": 0,
-      "31": 0,
-      "32": 0,
-      "33": 1,
-      "34": 0,
-      "35": 0,
-      "36": 0,
-      "37": 0,
-      "38": 0,
-      "39": 0,
-      "40": 0,
-      "41": 0,
-      "42": 1,
-      "43": 0,
-      "44": 0,
-      "45": 0,
-      "46": 0,
-      "47": 0,
-      "48": 0,
-      "49": 0,
-      "50": 1
-    },
-    "f": {
-      "0": 1,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 0,
-      "5": 0,
-      "6": 0,
-      "7": 0,
-      "8": 0,
-      "9": 0,
-      "10": 0
-    },
-    "b": {
-      "0": [
-        0,
-        1
-      ],
-      "1": [
-        0,
-        0
-      ],
-      "2": [
-        0,
-        0
-      ],
-      "3": [
-        0,
-        0
-      ],
-      "4": [
-        0,
-        0
-      ],
-      "5": [
-        0,
-        0
-      ],
-      "6": [
-        0,
-        0
-      ]
-    },
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "7d43f5415e486e7f9058f4971cde2c6cc9a7abeb"
-  },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/services/entry.service.js": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/services/entry.service.js",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 1,
-          "column": 19
-        },
-        "end": {
-          "line": 1,
-          "column": 51
-        }
-      },
-      "1": {
-        "start": {
-          "line": 7,
-          "column": 14
-        },
-        "end": {
-          "line": 7,
-          "column": 75
-        }
-      },
-      "2": {
-        "start": {
-          "line": 9,
-          "column": 2
-        },
-        "end": {
-          "line": 9,
-          "column": 15
-        }
-      },
-      "3": {
-        "start": {
-          "line": 51,
-          "column": 0
-        },
-        "end": {
-          "line": 51,
-          "column": 30
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 5,
-            "column": 1
-          },
-          "end": {
-            "line": 5,
-            "column": 2
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 6,
-            "column": 1
-          },
-          "end": {
-            "line": 10,
-            "column": 2
-          }
-        },
-        "line": 6
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 1,
-      "1": 0,
-      "2": 0,
-      "3": 1
-    },
-    "f": {
-      "0": 0
-    },
-    "b": {},
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "2fe19d4bbfa1c70df7da84f0ed8113a1454b4a0c"
-  },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/models/entry.model.js": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/models/entry.model.js",
-    "statementMap": {
-      "0": {
-        "start": {
-          "line": 5,
-          "column": 4
-        },
-        "end": {
-          "line": 5,
-          "column": 17
-        }
-      },
-      "1": {
-        "start": {
-          "line": 6,
-          "column": 4
-        },
-        "end": {
-          "line": 6,
-          "column": 23
-        }
-      },
-      "2": {
-        "start": {
-          "line": 7,
-          "column": 4
-        },
-        "end": {
-          "line": 7,
-          "column": 27
-        }
-      },
-      "3": {
-        "start": {
-          "line": 8,
-          "column": 4
-        },
-        "end": {
-          "line": 8,
-          "column": 37
-        }
-      },
-      "4": {
-        "start": {
-          "line": 12,
-          "column": 0
-        },
-        "end": {
-          "line": 12,
-          "column": 28
-        }
-      }
-    },
-    "fnMap": {
-      "0": {
-        "name": "(anonymous_0)",
-        "decl": {
-          "start": {
-            "line": 3,
-            "column": 1
-          },
-          "end": {
-            "line": 3,
-            "column": 2
-          }
-        },
-        "loc": {
-          "start": {
-            "line": 4,
-            "column": 1
-          },
-          "end": {
-            "line": 9,
-            "column": 2
-          }
-        },
-        "line": 4
-      }
-    },
-    "branchMap": {},
-    "s": {
-      "0": 0,
-      "1": 0,
-      "2": 0,
-      "3": 0,
-      "4": 1
-    },
-    "f": {
-      "0": 0
-    },
-    "b": {},
-    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
-    "hash": "55d599b942e8ae6f4642e1326e9c8377ba723738"
   }
 }
