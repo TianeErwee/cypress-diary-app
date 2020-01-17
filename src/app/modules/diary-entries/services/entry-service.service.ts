@@ -9,8 +9,8 @@ export class EntryServiceService {
 
   constructor(private http: HttpClient, private router: Router) { }
 
-  getEntry() {
-    this.http.get('/api/v1/entries').subscribe((data: any) => {
+  getEntries() {
+    this.http.get('/api/v1/entries/list').subscribe((data: any) => {
       console.log('DATA: ', data);
     }, error => {
       console.log(error);

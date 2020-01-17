@@ -1,1 +1,7 @@
-{}
+{
+  "env": {
+    "codeCoverage": {
+      "url": "http://localhost:3000/__coverage__"
+    }
+  }
+}

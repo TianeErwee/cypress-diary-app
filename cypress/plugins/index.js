@@ -10,7 +10,12 @@
 
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
+const browserify = require('@cypress/browserify-preprocessor')
 
 module.exports = (on, config) => {
   on('task', require('@cypress/code-coverage/task'))
+  const options = browserify.defaultOptions
+  options.browserifyOptions.transform[1][1].babelrc = true
+  on('file:preprocessor', browserify(options))
 }
+

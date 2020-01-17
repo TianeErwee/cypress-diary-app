@@ -168,26 +168,318 @@
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
     "hash": "fa7c4decc78e374c26c132b82d2b9d73fe7b34a5"
   },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/entries-list/entries-list.component.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/entries-list/entries-list.component.ts",
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/services/entry-service.service.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/services/entry-service.service.ts",
     "statementMap": {
       "0": {
         "start": {
-          "line": 3,
-          "column": 27
+          "line": 5,
+          "column": 26
         },
         "end": {
-          "line": 7,
+          "line": 17,
           "column": 1
         }
       },
       "1": {
         "start": {
+          "line": 7,
+          "column": 8
+        },
+        "end": {
+          "line": 7,
+          "column": 25
+        }
+      },
+      "2": {
+        "start": {
           "line": 8,
+          "column": 8
+        },
+        "end": {
+          "line": 8,
+          "column": 29
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 8
+        },
+        "end": {
+          "line": 15,
+          "column": 11
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 12
+        },
+        "end": {
+          "line": 12,
+          "column": 40
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 12
+        },
+        "end": {
+          "line": 14,
+          "column": 31
+        }
+      },
+      "6": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 2
+        }
+      },
+      "7": {
+        "start": {
+          "line": 18,
+          "column": 43
+        },
+        "end": {
+          "line": 21,
+          "column": 1
+        }
+      },
+      "8": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 26,
+          "column": 24
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 4
+          },
+          "end": {
+            "line": 6,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 30
+          },
+          "end": {
+            "line": 9,
+            "column": 5
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 4
+          },
+          "end": {
+            "line": 10,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 17
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 56
+          },
+          "end": {
+            "line": 11,
+            "column": 57
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 66
+          },
+          "end": {
+            "line": 13,
+            "column": 9
+          }
+        },
+        "line": 11
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 11
+          },
+          "end": {
+            "line": 13,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 20
+          },
+          "end": {
+            "line": 15,
+            "column": 9
+          }
+        },
+        "line": 13
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 37
+          },
+          "end": {
+            "line": 18,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 43
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        },
+        "line": 18
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 0,
+      "5": 1,
+      "6": 1,
+      "7": 2,
+      "8": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 0,
+      "3": 1,
+      "4": 2
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "file": "entry-service.service.js",
+      "sourceRoot": "",
+      "sources": [
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/services/entry-service.service.ts"
+      ],
+      "names": [],
+      "mappings": ";AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,eAAe,CAAC;AAC3C,OAAO,EAAE,UAAU,EAAE,MAAM,sBAAsB,CAAC;AAClD,OAAO,EAAE,MAAM,EAAE,MAAM,iBAAiB,CAAC;AAKzC,IAAa,mBAAmB,GAAhC,MAAa,mBAAmB;IAE9B,YAAoB,IAAgB,EAAU,MAAc;QAAxC,SAAI,GAAJ,IAAI,CAAY;QAAU,WAAM,GAAN,MAAM,CAAQ;IAAI,CAAC;IAEjE,UAAU;QACR,IAAI,CAAC,IAAI,CAAC,GAAG,CAAC,sBAAsB,CAAC,CAAC,SAAS,CAAC,CAAC,IAAS,EAAE,EAAE;YAC5D,OAAO,CAAC,GAAG,CAAC,QAAQ,EAAE,IAAI,CAAC,CAAC;QAC9B,CAAC,EAAE,KAAK,CAAC,EAAE;YACT,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC;QACrB,CAAC,CAAC,CAAC;IACL,CAAC;CACF,CAAA;;YAT2B,UAAU;YAAkB,MAAM;;AAFjD,mBAAmB;IAH/B,UAAU,CAAC;QACV,UAAU,EAAE,MAAM;KACnB,CAAC;GACW,mBAAmB,CAW/B;SAXY,mBAAmB",
+      "sourcesContent": [
+        "import { Injectable } from '@angular/core';\nimport { HttpClient } from '@angular/common/http';\nimport { Router } from '@angular/router';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class EntryServiceService {\n\n  constructor(private http: HttpClient, private router: Router) { }\n\n  getEntries() {\n    this.http.get('/api/v1/entries/list').subscribe((data: any) => {\n      console.log('DATA: ', data);\n    }, error => {\n      console.log(error);\n    });\n  }\n}\n"
+      ]
+    },
+    "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+    "hash": "637ba96de55c5ecdf9b7f536efb8196e65d91ebe"
+  },
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 27
+        },
+        "end": {
+          "line": 11,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 8
+        },
+        "end": {
+          "line": 6,
+          "column": 41
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 8
+        },
+        "end": {
+          "line": 9,
+          "column": 39
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
           "column": 0
         },
         "end": {
           "line": 14,
+          "column": 2
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 44
+        },
+        "end": {
+          "line": 14,
+          "column": 1
+        }
+      },
+      "5": {
+        "start": {
+          "line": 15,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
           "column": 25
         }
       }
@@ -197,59 +489,88 @@
         "name": "(anonymous_0)",
         "decl": {
           "start": {
-            "line": 4,
+            "line": 5,
             "column": 4
           },
           "end": {
-            "line": 4,
+            "line": 5,
             "column": 5
           }
         },
         "loc": {
           "start": {
-            "line": 4,
-            "column": 18
+            "line": 5,
+            "column": 30
           },
           "end": {
-            "line": 4,
-            "column": 21
+            "line": 7,
+            "column": 5
           }
         },
-        "line": 4
+        "line": 5
       },
       "1": {
         "name": "(anonymous_1)",
         "decl": {
           "start": {
-            "line": 5,
+            "line": 8,
             "column": 4
           },
           "end": {
-            "line": 5,
+            "line": 8,
             "column": 5
           }
         },
         "loc": {
           "start": {
-            "line": 5,
+            "line": 8,
             "column": 15
           },
           "end": {
-            "line": 6,
+            "line": 10,
             "column": 5
           }
         },
-        "line": 5
+        "line": 8
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 38
+          },
+          "end": {
+            "line": 12,
+            "column": 39
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 44
+          },
+          "end": {
+            "line": 14,
+            "column": 1
+          }
+        },
+        "line": 12
       }
     },
     "branchMap": {},
     "s": {
       "0": 1,
-      "1": 1
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1
     },
     "f": {
-      "0": 0,
-      "1": 0
+      "0": 1,
+      "1": 1,
+      "2": 1
     },
     "b": {},
     "inputSourceMap": {
@@ -257,19 +578,19 @@
       "file": "entries-list.component.js",
       "sourceRoot": "",
       "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/entries-list/entries-list.component.ts"
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/entries-list/entries-list.component.ts"
       ],
       "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAOlD,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAE/B,gBAAgB,CAAC;IAEjB,QAAQ;IACR,CAAC;CAEF,CAAA;AAPY,oBAAoB;IALhC,SAAS,CAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,+FAA4C;;KAE7C,CAAC;GACW,oBAAoB,CAOhC;SAPY,oBAAoB",
+      "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAClD,OAAO,EAAE,mBAAmB,EAAE,MAAM,sCAAsC,CAAC;AAO3E,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAE/B,YAAoB,YAAiC;QAAjC,iBAAY,GAAZ,YAAY,CAAqB;IAAI,CAAC;IAE1D,QAAQ;QACN,IAAI,CAAC,YAAY,CAAC,UAAU,EAAE,CAAC;IACjC,CAAC;CAEF,CAAA;;YANmC,mBAAmB;;AAF1C,oBAAoB;IALhC,SAAS,CAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,+FAA4C;;KAE7C,CAAC;GACW,oBAAoB,CAQhC;SARY,oBAAoB",
       "sourcesContent": [
-        "import { Component, OnInit } from '@angular/core';\n\n@Component({\n  selector: 'app-entries-list',\n  templateUrl: './entries-list.component.html',\n  styleUrls: ['./entries-list.component.scss']\n})\nexport class EntriesListComponent implements OnInit {\n\n  constructor() { }\n\n  ngOnInit() {\n  }\n\n}\n"
+        "import { Component, OnInit } from '@angular/core';\nimport { EntryServiceService } from '../../services/entry-service.service';\n\n@Component({\n  selector: 'app-entries-list',\n  templateUrl: './entries-list.component.html',\n  styleUrls: ['./entries-list.component.scss']\n})\nexport class EntriesListComponent implements OnInit {\n\n  constructor(private entryService: EntryServiceService) { }\n\n  ngOnInit() {\n    this.entryService.getEntries();\n  }\n\n}\n"
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "0c2451cf67a9bd1ddd5eb69f75224bab3237a5bf"
+    "hash": "761f4e882e6434fd2bcb48011414ddf078cc1845"
   },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/view-entry/view-entry.component.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/view-entry/view-entry.component.ts",
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -357,7 +678,7 @@
       "file": "view-entry.component.js",
       "sourceRoot": "",
       "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/view-entry/view-entry.component.ts"
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/view-entry/view-entry.component.ts"
       ],
       "names": [],
       "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAOlD,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;IAE7B,gBAAgB,CAAC;IAEjB,QAAQ;IACR,CAAC;CAEF,CAAA;AAPY,kBAAkB;IAL9B,SAAS,CAAC;QACT,QAAQ,EAAE,gBAAgB;QAC1B,6FAA0C;;KAE3C,CAAC;GACW,kBAAkB,CAO9B;SAPY,kBAAkB",
@@ -366,10 +687,10 @@
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "db537588c27032b21bf6eef7d711954c267bdc94"
+    "hash": "0f5a574ba175e119ddc92e64598bf8b847a06546"
   },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/create-entry/create-entry.component.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/create-entry/create-entry.component.ts",
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -457,7 +778,7 @@
       "file": "create-entry.component.js",
       "sourceRoot": "",
       "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/create-entry/create-entry.component.ts"
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/create-entry/create-entry.component.ts"
       ],
       "names": [],
       "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAOlD,IAAa,oBAAoB,GAAjC,MAAa,oBAAoB;IAE/B,gBAAgB,CAAC;IAEjB,QAAQ;IACR,CAAC;CAEF,CAAA;AAPY,oBAAoB;IALhC,SAAS,CAAC;QACT,QAAQ,EAAE,kBAAkB;QAC5B,+FAA4C;;KAE7C,CAAC;GACW,oBAAoB,CAOhC;SAPY,oBAAoB",
@@ -466,10 +787,10 @@
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "93987647bc1a8f1533420976f8895cd5250581dc"
+    "hash": "26468f2e7c22332166bf13c168e611001eb73efe"
   },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/dashboard/dashboard.component.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/dashboard/dashboard.component.ts",
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/dashboard/dashboard.component.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/dashboard/dashboard.component.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -548,8 +869,8 @@
       "1": 1
     },
     "f": {
-      "0": 1,
-      "1": 1
+      "0": 0,
+      "1": 0
     },
     "b": {},
     "inputSourceMap": {
@@ -557,7 +878,7 @@
       "file": "dashboard.component.js",
       "sourceRoot": "",
       "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/components/dashboard/dashboard.component.ts"
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/components/dashboard/dashboard.component.ts"
       ],
       "names": [],
       "mappings": ";AAAA,OAAO,EAAE,SAAS,EAAU,MAAM,eAAe,CAAC;AAOlD,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;IAE7B,gBAAgB,CAAC;IAEjB,QAAQ;IACR,CAAC;CAEF,CAAA;AAPY,kBAAkB;IAL9B,SAAS,CAAC;QACT,QAAQ,EAAE,eAAe;QACzB,4FAAyC;;KAE1C,CAAC;GACW,kBAAkB,CAO9B;SAPY,kBAAkB",
@@ -566,10 +887,10 @@
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "eed7234ff50418cbd229e56084b5be5146d6a6c6"
+    "hash": "13ede1b56d5eeac859b9218f31519809adbb566a"
   },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/diary-entries-routing.module.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/diary-entries-routing.module.ts",
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries-routing.module.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries-routing.module.ts",
     "statementMap": {
       "0": {
         "start": {
@@ -616,7 +937,7 @@
       "file": "diary-entries-routing.module.js",
       "sourceRoot": "",
       "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/diary-entries-routing.module.ts"
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries-routing.module.ts"
       ],
       "names": [],
       "mappings": ";AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,YAAY,EAAU,MAAM,iBAAiB,CAAC;AACvD,OAAO,EAAE,kBAAkB,EAAE,MAAM,4CAA4C,CAAC;AAChF,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAClF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AAExF,MAAM,MAAM,GAAW;IACrB,EAAE,IAAI,EAAE,WAAW,EAAE,SAAS,EAAE,kBAAkB,EAAE;IACpD,EAAE,IAAI,EAAE,wBAAwB,EAAE,SAAS,EAAE,kBAAkB,EAAE;IACjE,EAAE,IAAI,EAAE,cAAc,EAAE,SAAS,EAAE,oBAAoB,EAAE;IACzD,EAAE,IAAI,EAAE,sBAAsB,EAAE,SAAS,EAAE,oBAAoB,EAAE;CAClE,CAAC;AAMF,IAAa,yBAAyB,GAAtC,MAAa,yBAAyB;CAAI,CAAA;AAA7B,yBAAyB;IAJrC,QAAQ,CAAC;QACR,OAAO,EAAE,CAAE,YAAY,CAAC,QAAQ,CAAC,MAAM,CAAC,CAAE;QAC1C,OAAO,EAAE,CAAE,YAAY,CAAE;KAC1B,CAAC;GACW,yBAAyB,CAAI;SAA7B,yBAAyB",
@@ -625,28 +946,28 @@
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "652784a4b42f2e2e670ed85f1ea76aaf4b2b99ad"
+    "hash": "0541ee516ef867c34e57c0d3bcab625400dcfa30"
   },
-  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/diary-entries.module.ts": {
-    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/diary-entries.module.ts",
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries.module.ts": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries.module.ts",
     "statementMap": {
       "0": {
         "start": {
-          "line": 9,
+          "line": 12,
           "column": 25
         },
         "end": {
-          "line": 10,
+          "line": 13,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 11,
+          "line": 14,
           "column": 0
         },
         "end": {
-          "line": 24,
+          "line": 32,
           "column": 23
         }
       }
@@ -664,37 +985,37 @@
       "file": "diary-entries.module.js",
       "sourceRoot": "",
       "sources": [
-        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/diary-entries/diary-entries.module.ts"
+        "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/modules/diary-entries/diary-entries.module.ts"
       ],
       "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAClF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,kBAAkB,EAAE,MAAM,4CAA4C,CAAC;AAChF,OAAO,EAAE,yBAAyB,EAAE,MAAM,gCAAgC,CAAC;AAgB3E,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;CAAI,CAAA;AAAtB,kBAAkB;IAZ9B,QAAQ,CAAC;QACR,YAAY,EAAE;YACZ,oBAAoB;YACpB,kBAAkB;YAClB,oBAAoB;YACpB,kBAAkB;SACnB;QACD,OAAO,EAAE;YACP,YAAY;YACZ,yBAAyB;SAC1B;KACF,CAAC;GACW,kBAAkB,CAAI;SAAtB,kBAAkB",
+      "mappings": ";AAAA,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AACzC,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAC1D,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AACxD,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAClF,OAAO,EAAE,oBAAoB,EAAE,MAAM,kDAAkD,CAAC;AACxF,OAAO,EAAE,kBAAkB,EAAE,MAAM,4CAA4C,CAAC;AAChF,OAAO,EAAE,yBAAyB,EAAE,MAAM,gCAAgC,CAAC;AAC3E,OAAO,EAAE,mBAAmB,EAAE,MAAM,kCAAkC,CAAC;AAqBvE,IAAa,kBAAkB,GAA/B,MAAa,kBAAkB;CAAI,CAAA;AAAtB,kBAAkB;IAjB9B,QAAQ,CAAC;QACR,YAAY,EAAE;YACZ,oBAAoB;YACpB,kBAAkB;YAClB,oBAAoB;YACpB,kBAAkB;SACnB;QACD,OAAO,EAAE;YACP,YAAY;YACZ,yBAAyB;YACzB,aAAa;YACb,gBAAgB;SACjB;QACD,SAAS,EAAE;YACT,mBAAmB;SACpB;KACF,CAAC;GACW,kBAAkB,CAAI;SAAtB,kBAAkB",
       "sourcesContent": [
-        "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\nimport { EntriesListComponent } from './components/entries-list/entries-list.component';\nimport { ViewEntryComponent } from './components/view-entry/view-entry.component';\nimport { CreateEntryComponent } from './components/create-entry/create-entry.component';\nimport { DashboardComponent } from './components/dashboard/dashboard.component';\nimport { DiaryEntriesRoutingModule } from './diary-entries-routing.module';\n\n\n\n@NgModule({\n  declarations: [\n    EntriesListComponent,\n    ViewEntryComponent,\n    CreateEntryComponent,\n    DashboardComponent\n  ],\n  imports: [\n    CommonModule,\n    DiaryEntriesRoutingModule\n  ]\n})\nexport class DiaryEntriesModule { }\n"
+        "import { NgModule } from '@angular/core';\nimport { BrowserModule } from '@angular/platform-browser';\nimport { HttpClientModule } from '@angular/common/http';\nimport { CommonModule } from '@angular/common';\nimport { EntriesListComponent } from './components/entries-list/entries-list.component';\nimport { ViewEntryComponent } from './components/view-entry/view-entry.component';\nimport { CreateEntryComponent } from './components/create-entry/create-entry.component';\nimport { DashboardComponent } from './components/dashboard/dashboard.component';\nimport { DiaryEntriesRoutingModule } from './diary-entries-routing.module';\nimport { EntryServiceService } from './services/entry-service.service';\n\n\n\n@NgModule({\n  declarations: [\n    EntriesListComponent,\n    ViewEntryComponent,\n    CreateEntryComponent,\n    DashboardComponent\n  ],\n  imports: [\n    CommonModule,\n    DiaryEntriesRoutingModule,\n    BrowserModule,\n    HttpClientModule\n  ],\n  providers: [\n    EntryServiceService\n  ]\n})\nexport class DiaryEntriesModule { }\n"
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "d20b3b9b6cb80db8d3bb2494a6a52449041bccb8"
+    "hash": "fcb6e0001e61aedf6f820614c727c0e16cf15504"
   },
   "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/app.module.ts": {
     "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/app.module.ts",
     "statementMap": {
       "0": {
         "start": {
-          "line": 7,
+          "line": 8,
           "column": 16
         },
         "end": {
-          "line": 8,
+          "line": 9,
           "column": 1
         }
       },
       "1": {
         "start": {
-          "line": 9,
+          "line": 10,
           "column": 0
         },
         "end": {
-          "line": 22,
+          "line": 24,
           "column": 14
         }
       }
@@ -715,13 +1036,13 @@
         "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/app/app.module.ts"
       ],
       "names": [],
-      "mappings": ";AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAC1D,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AAEzC,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AACxD,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,kBAAkB,EAAE,MAAM,sCAAsC,CAAC;AAc1E,IAAa,SAAS,GAAtB,MAAa,SAAS;CAAI,CAAA;AAAb,SAAS;IAZrB,QAAQ,CAAC;QACR,YAAY,EAAE;YACZ,YAAY;SACb;QACD,OAAO,EAAE;YACP,aAAa;YACb,kBAAkB;YAClB,gBAAgB;SACjB;QACD,SAAS,EAAE,EAAE;QACb,SAAS,EAAE,CAAC,YAAY,CAAC;KAC1B,CAAC;GACW,SAAS,CAAI;SAAb,SAAS",
+      "mappings": ";AAAA,OAAO,EAAE,aAAa,EAAE,MAAM,2BAA2B,CAAC;AAC1D,OAAO,EAAE,QAAQ,EAAE,MAAM,eAAe,CAAC;AAEzC,OAAO,EAAE,gBAAgB,EAAE,MAAM,sBAAsB,CAAC;AACxD,OAAO,EAAE,YAAY,EAAE,MAAM,iBAAiB,CAAC;AAC/C,OAAO,EAAE,kBAAkB,EAAE,MAAM,8CAA8C,CAAC;AAClF,OAAO,EAAE,uBAAuB,EAAE,MAAM,sCAAsC,CAAC;AAe/E,IAAa,SAAS,GAAtB,MAAa,SAAS;CAAI,CAAA;AAAb,SAAS;IAbrB,QAAQ,CAAC;QACR,YAAY,EAAE;YACZ,YAAY;SACb;QACD,OAAO,EAAE;YACP,aAAa;YACb,kBAAkB;YAClB,gBAAgB;YAChB,uBAAuB;SACxB;QACD,SAAS,EAAE,EAAE;QACb,SAAS,EAAE,CAAC,YAAY,CAAC;KAC1B,CAAC;GACW,SAAS,CAAI;SAAb,SAAS",
       "sourcesContent": [
-        "import { BrowserModule } from '@angular/platform-browser';\nimport { NgModule } from '@angular/core';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { DiaryEntriesModule } from './diary-entries/diary-entries.module';\n\n@NgModule({\n  declarations: [\n    AppComponent\n  ],\n  imports: [\n    BrowserModule,\n    DiaryEntriesModule,\n    AppRoutingModule,\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n"
+        "import { BrowserModule } from '@angular/platform-browser';\nimport { NgModule } from '@angular/core';\n\nimport { AppRoutingModule } from './app-routing.module';\nimport { AppComponent } from './app.component';\nimport { DiaryEntriesModule } from './modules/diary-entries/diary-entries.module';\nimport { BrowserAnimationsModule } from '@angular/platform-browser/animations';\n\n@NgModule({\n  declarations: [\n    AppComponent\n  ],\n  imports: [\n    BrowserModule,\n    DiaryEntriesModule,\n    AppRoutingModule,\n    BrowserAnimationsModule,\n  ],\n  providers: [],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n"
       ]
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
-    "hash": "759862831196e054d511e2d9563498109b6589e1"
+    "hash": "cf2b0b35e8363e17ec84a61cef5fde142903cfda"
   },
   "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/environments/environment.ts": {
     "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-app/src/environments/environment.ts",
@@ -898,5 +1219,1462 @@
     },
     "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
     "hash": "649ecf4c7ceff127651d22c7167334fd6b6968a5"
+  },
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/app.js": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/app.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 14
+        },
+        "end": {
+          "line": 1,
+          "column": 32
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 11
+        },
+        "end": {
+          "line": 2,
+          "column": 26
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 19
+        },
+        "end": {
+          "line": 3,
+          "column": 43
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 17
+        },
+        "end": {
+          "line": 4,
+          "column": 39
+        }
+      },
+      "4": {
+        "start": {
+          "line": 6,
+          "column": 14
+        },
+        "end": {
+          "line": 6,
+          "column": 41
+        }
+      },
+      "5": {
+        "start": {
+          "line": 8,
+          "column": 10
+        },
+        "end": {
+          "line": 8,
+          "column": 19
+        }
+      },
+      "6": {
+        "start": {
+          "line": 10,
+          "column": 0
+        },
+        "end": {
+          "line": 10,
+          "column": 58
+        }
+      },
+      "7": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 27
+        }
+      },
+      "8": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 13,
+          "column": 52
+        }
+      },
+      "9": {
+        "start": {
+          "line": 14,
+          "column": 0
+        },
+        "end": {
+          "line": 14,
+          "column": 23
+        }
+      },
+      "10": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 16,
+          "column": 36
+        }
+      },
+      "11": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 21
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3e76e739b43e4e0b35454f9d7ba7b9f86a26d5aa"
+  },
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/routes/entries.js": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/routes/entries.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 14
+        },
+        "end": {
+          "line": 1,
+          "column": 32
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 13
+        },
+        "end": {
+          "line": 2,
+          "column": 29
+        }
+      },
+      "2": {
+        "start": {
+          "line": 3,
+          "column": 19
+        },
+        "end": {
+          "line": 3,
+          "column": 55
+        }
+      },
+      "3": {
+        "start": {
+          "line": 4,
+          "column": 14
+        },
+        "end": {
+          "line": 4,
+          "column": 30
+        }
+      },
+      "4": {
+        "start": {
+          "line": 6,
+          "column": 11
+        },
+        "end": {
+          "line": 11,
+          "column": 2
+        }
+      },
+      "5": {
+        "start": {
+          "line": 13,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 3
+        }
+      },
+      "6": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 16,
+          "column": 3
+        }
+      },
+      "7": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 16
+        }
+      },
+      "8": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 39
+        }
+      },
+      "9": {
+        "start": {
+          "line": 21,
+          "column": 0
+        },
+        "end": {
+          "line": 30,
+          "column": 3
+        }
+      },
+      "10": {
+        "start": {
+          "line": 23,
+          "column": 2
+        },
+        "end": {
+          "line": 29,
+          "column": 5
+        }
+      },
+      "11": {
+        "start": {
+          "line": 24,
+          "column": 4
+        },
+        "end": {
+          "line": 28,
+          "column": 5
+        }
+      },
+      "12": {
+        "start": {
+          "line": 25,
+          "column": 6
+        },
+        "end": {
+          "line": 25,
+          "column": 23
+        }
+      },
+      "13": {
+        "start": {
+          "line": 27,
+          "column": 6
+        },
+        "end": {
+          "line": 27,
+          "column": 61
+        }
+      },
+      "14": {
+        "start": {
+          "line": 32,
+          "column": 0
+        },
+        "end": {
+          "line": 56,
+          "column": 3
+        }
+      },
+      "15": {
+        "start": {
+          "line": 34,
+          "column": 15
+        },
+        "end": {
+          "line": 34,
+          "column": 23
+        }
+      },
+      "16": {
+        "start": {
+          "line": 35,
+          "column": 1
+        },
+        "end": {
+          "line": 55,
+          "column": 2
+        }
+      },
+      "17": {
+        "start": {
+          "line": 37,
+          "column": 18
+        },
+        "end": {
+          "line": 37,
+          "column": 144
+        }
+      },
+      "18": {
+        "start": {
+          "line": 38,
+          "column": 4
+        },
+        "end": {
+          "line": 44,
+          "column": 7
+        }
+      },
+      "19": {
+        "start": {
+          "line": 39,
+          "column": 6
+        },
+        "end": {
+          "line": 43,
+          "column": 7
+        }
+      },
+      "20": {
+        "start": {
+          "line": 40,
+          "column": 8
+        },
+        "end": {
+          "line": 40,
+          "column": 25
+        }
+      },
+      "21": {
+        "start": {
+          "line": 42,
+          "column": 8
+        },
+        "end": {
+          "line": 42,
+          "column": 63
+        }
+      },
+      "22": {
+        "start": {
+          "line": 48,
+          "column": 2
+        },
+        "end": {
+          "line": 51,
+          "column": 3
+        }
+      },
+      "23": {
+        "start": {
+          "line": 50,
+          "column": 9
+        },
+        "end": {
+          "line": 50,
+          "column": 61
+        }
+      },
+      "24": {
+        "start": {
+          "line": 54,
+          "column": 2
+        },
+        "end": {
+          "line": 54,
+          "column": 19
+        }
+      },
+      "25": {
+        "start": {
+          "line": 58,
+          "column": 0
+        },
+        "end": {
+          "line": 76,
+          "column": 3
+        }
+      },
+      "26": {
+        "start": {
+          "line": 60,
+          "column": 1
+        },
+        "end": {
+          "line": 75,
+          "column": 2
+        }
+      },
+      "27": {
+        "start": {
+          "line": 62,
+          "column": 18
+        },
+        "end": {
+          "line": 62,
+          "column": 75
+        }
+      },
+      "28": {
+        "start": {
+          "line": 63,
+          "column": 4
+        },
+        "end": {
+          "line": 69,
+          "column": 7
+        }
+      },
+      "29": {
+        "start": {
+          "line": 64,
+          "column": 6
+        },
+        "end": {
+          "line": 68,
+          "column": 7
+        }
+      },
+      "30": {
+        "start": {
+          "line": 65,
+          "column": 8
+        },
+        "end": {
+          "line": 65,
+          "column": 25
+        }
+      },
+      "31": {
+        "start": {
+          "line": 67,
+          "column": 8
+        },
+        "end": {
+          "line": 67,
+          "column": 63
+        }
+      },
+      "32": {
+        "start": {
+          "line": 74,
+          "column": 2
+        },
+        "end": {
+          "line": 74,
+          "column": 19
+        }
+      },
+      "33": {
+        "start": {
+          "line": 79,
+          "column": 0
+        },
+        "end": {
+          "line": 98,
+          "column": 3
+        }
+      },
+      "34": {
+        "start": {
+          "line": 81,
+          "column": 15
+        },
+        "end": {
+          "line": 81,
+          "column": 23
+        }
+      },
+      "35": {
+        "start": {
+          "line": 82,
+          "column": 1
+        },
+        "end": {
+          "line": 97,
+          "column": 2
+        }
+      },
+      "36": {
+        "start": {
+          "line": 84,
+          "column": 18
+        },
+        "end": {
+          "line": 84,
+          "column": 139
+        }
+      },
+      "37": {
+        "start": {
+          "line": 85,
+          "column": 4
+        },
+        "end": {
+          "line": 91,
+          "column": 7
+        }
+      },
+      "38": {
+        "start": {
+          "line": 86,
+          "column": 6
+        },
+        "end": {
+          "line": 90,
+          "column": 7
+        }
+      },
+      "39": {
+        "start": {
+          "line": 87,
+          "column": 8
+        },
+        "end": {
+          "line": 87,
+          "column": 25
+        }
+      },
+      "40": {
+        "start": {
+          "line": 89,
+          "column": 8
+        },
+        "end": {
+          "line": 89,
+          "column": 63
+        }
+      },
+      "41": {
+        "start": {
+          "line": 96,
+          "column": 2
+        },
+        "end": {
+          "line": 96,
+          "column": 19
+        }
+      },
+      "42": {
+        "start": {
+          "line": 101,
+          "column": 0
+        },
+        "end": {
+          "line": 119,
+          "column": 3
+        }
+      },
+      "43": {
+        "start": {
+          "line": 103,
+          "column": 1
+        },
+        "end": {
+          "line": 118,
+          "column": 2
+        }
+      },
+      "44": {
+        "start": {
+          "line": 105,
+          "column": 18
+        },
+        "end": {
+          "line": 105,
+          "column": 73
+        }
+      },
+      "45": {
+        "start": {
+          "line": 106,
+          "column": 4
+        },
+        "end": {
+          "line": 112,
+          "column": 7
+        }
+      },
+      "46": {
+        "start": {
+          "line": 107,
+          "column": 6
+        },
+        "end": {
+          "line": 111,
+          "column": 7
+        }
+      },
+      "47": {
+        "start": {
+          "line": 108,
+          "column": 8
+        },
+        "end": {
+          "line": 108,
+          "column": 25
+        }
+      },
+      "48": {
+        "start": {
+          "line": 110,
+          "column": 8
+        },
+        "end": {
+          "line": 110,
+          "column": 63
+        }
+      },
+      "49": {
+        "start": {
+          "line": 117,
+          "column": 2
+        },
+        "end": {
+          "line": 117,
+          "column": 19
+        }
+      },
+      "50": {
+        "start": {
+          "line": 121,
+          "column": 0
+        },
+        "end": {
+          "line": 121,
+          "column": 24
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 11
+          },
+          "end": {
+            "line": 13,
+            "column": 12
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 20
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 21,
+            "column": 20
+          },
+          "end": {
+            "line": 21,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 0
+          },
+          "end": {
+            "line": 30,
+            "column": 1
+          }
+        },
+        "line": 22
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 36
+          },
+          "end": {
+            "line": 23,
+            "column": 37
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 61
+          },
+          "end": {
+            "line": 29,
+            "column": 3
+          }
+        },
+        "line": 23
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 29
+          },
+          "end": {
+            "line": 32,
+            "column": 30
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 0
+          },
+          "end": {
+            "line": 56,
+            "column": 1
+          }
+        },
+        "line": 33
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 38,
+            "column": 20
+          },
+          "end": {
+            "line": 38,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 38,
+            "column": 45
+          },
+          "end": {
+            "line": 44,
+            "column": 5
+          }
+        },
+        "line": 38
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 58,
+            "column": 30
+          },
+          "end": {
+            "line": 58,
+            "column": 31
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 59,
+            "column": 0
+          },
+          "end": {
+            "line": 76,
+            "column": 1
+          }
+        },
+        "line": 59
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 63,
+            "column": 20
+          },
+          "end": {
+            "line": 63,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 63,
+            "column": 45
+          },
+          "end": {
+            "line": 69,
+            "column": 5
+          }
+        },
+        "line": 63
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 79,
+            "column": 32
+          },
+          "end": {
+            "line": 79,
+            "column": 33
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 80,
+            "column": 0
+          },
+          "end": {
+            "line": 98,
+            "column": 1
+          }
+        },
+        "line": 80
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 85,
+            "column": 20
+          },
+          "end": {
+            "line": 85,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 85,
+            "column": 45
+          },
+          "end": {
+            "line": 91,
+            "column": 5
+          }
+        },
+        "line": 85
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": {
+            "line": 101,
+            "column": 35
+          },
+          "end": {
+            "line": 101,
+            "column": 36
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 102,
+            "column": 0
+          },
+          "end": {
+            "line": 119,
+            "column": 1
+          }
+        },
+        "line": 102
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": {
+            "line": 106,
+            "column": 20
+          },
+          "end": {
+            "line": 106,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 106,
+            "column": 45
+          },
+          "end": {
+            "line": 112,
+            "column": 5
+          }
+        },
+        "line": 106
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 2
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 14,
+              "column": 2
+            },
+            "end": {
+              "line": 16,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 2
+            },
+            "end": {
+              "line": 16,
+              "column": 3
+            }
+          }
+        ],
+        "line": 14
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 4
+          },
+          "end": {
+            "line": 28,
+            "column": 5
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 24,
+              "column": 4
+            },
+            "end": {
+              "line": 28,
+              "column": 5
+            }
+          },
+          {
+            "start": {
+              "line": 24,
+              "column": 4
+            },
+            "end": {
+              "line": 28,
+              "column": 5
+            }
+          }
+        ],
+        "line": 24
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 6
+          },
+          "end": {
+            "line": 43,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 39,
+              "column": 6
+            },
+            "end": {
+              "line": 43,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 39,
+              "column": 6
+            },
+            "end": {
+              "line": 43,
+              "column": 7
+            }
+          }
+        ],
+        "line": 39
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 2
+          },
+          "end": {
+            "line": 51,
+            "column": 3
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 48,
+              "column": 2
+            },
+            "end": {
+              "line": 51,
+              "column": 3
+            }
+          },
+          {
+            "start": {
+              "line": 48,
+              "column": 2
+            },
+            "end": {
+              "line": 51,
+              "column": 3
+            }
+          }
+        ],
+        "line": 48
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 64,
+            "column": 6
+          },
+          "end": {
+            "line": 68,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 64,
+              "column": 6
+            },
+            "end": {
+              "line": 68,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 64,
+              "column": 6
+            },
+            "end": {
+              "line": 68,
+              "column": 7
+            }
+          }
+        ],
+        "line": 64
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 86,
+            "column": 6
+          },
+          "end": {
+            "line": 90,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 86,
+              "column": 6
+            },
+            "end": {
+              "line": 90,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 86,
+              "column": 6
+            },
+            "end": {
+              "line": 90,
+              "column": 7
+            }
+          }
+        ],
+        "line": 86
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 107,
+            "column": 6
+          },
+          "end": {
+            "line": 111,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 107,
+              "column": 6
+            },
+            "end": {
+              "line": 111,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 107,
+              "column": 6
+            },
+            "end": {
+              "line": 111,
+              "column": 7
+            }
+          }
+        ],
+        "line": 107
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 0,
+      "8": 1,
+      "9": 1,
+      "10": 0,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 1,
+      "15": 0,
+      "16": 0,
+      "17": 0,
+      "18": 0,
+      "19": 0,
+      "20": 0,
+      "21": 0,
+      "22": 0,
+      "23": 0,
+      "24": 0,
+      "25": 1,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 0,
+      "30": 0,
+      "31": 0,
+      "32": 0,
+      "33": 1,
+      "34": 0,
+      "35": 0,
+      "36": 0,
+      "37": 0,
+      "38": 0,
+      "39": 0,
+      "40": 0,
+      "41": 0,
+      "42": 1,
+      "43": 0,
+      "44": 0,
+      "45": 0,
+      "46": 0,
+      "47": 0,
+      "48": 0,
+      "49": 0,
+      "50": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0
+    },
+    "b": {
+      "0": [
+        0,
+        1
+      ],
+      "1": [
+        0,
+        0
+      ],
+      "2": [
+        0,
+        0
+      ],
+      "3": [
+        0,
+        0
+      ],
+      "4": [
+        0,
+        0
+      ],
+      "5": [
+        0,
+        0
+      ],
+      "6": [
+        0,
+        0
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7d43f5415e486e7f9058f4971cde2c6cc9a7abeb"
+  },
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/services/entry.service.js": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/services/entry.service.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 19
+        },
+        "end": {
+          "line": 1,
+          "column": 51
+        }
+      },
+      "1": {
+        "start": {
+          "line": 7,
+          "column": 14
+        },
+        "end": {
+          "line": 7,
+          "column": 75
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 15
+        }
+      },
+      "3": {
+        "start": {
+          "line": 51,
+          "column": 0
+        },
+        "end": {
+          "line": 51,
+          "column": 30
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 1
+          },
+          "end": {
+            "line": 5,
+            "column": 2
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 1
+          },
+          "end": {
+            "line": 10,
+            "column": 2
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 0,
+      "3": 1
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2fe19d4bbfa1c70df7da84f0ed8113a1454b4a0c"
+  },
+  "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/models/entry.model.js": {
+    "path": "/Users/tiane/Projects/Personal/Cypress-Diary/cypress-diary-api/models/entry.model.js",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 4
+        },
+        "end": {
+          "line": 5,
+          "column": 17
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 4
+        },
+        "end": {
+          "line": 6,
+          "column": 23
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 4
+        },
+        "end": {
+          "line": 7,
+          "column": 27
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 4
+        },
+        "end": {
+          "line": 8,
+          "column": 37
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 28
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 1
+          },
+          "end": {
+            "line": 3,
+            "column": 2
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 1
+          },
+          "end": {
+            "line": 9,
+            "column": 2
+          }
+        },
+        "line": 4
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "55d599b942e8ae6f4642e1326e9c8377ba723738"
   }
 }
