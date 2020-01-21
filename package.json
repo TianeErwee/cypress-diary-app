@@ -11,7 +11,18 @@
   },
   "nyc": {
     "extends": "@istanbuljs/nyc-config-typescript",
-    "all": true
+    "all": true,
+    "include": [
+      "src/**/*.ts",
+      "../cypress-diary-api/routes/**/*"
+    ],
+    "exclude": [
+      "**/*.spec.js"
+    ],
+    "extension": [
+      ".ts",
+      ".js"
+    ]
   },
   "private": true,
   "dependencies": {
