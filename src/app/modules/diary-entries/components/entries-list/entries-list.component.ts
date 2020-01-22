@@ -32,6 +32,7 @@ export class EntriesListComponent implements OnInit {
 
   deleteEntry(id: number) {
     this.entryService.deleteEntry(id);
+    this.init();
   }
 
 }
