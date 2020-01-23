@@ -12,6 +12,7 @@ export class EntryServiceService {
   async getEntries(): Promise<any> {
     return this.http.get('/api/v1/entries/list').toPromise()
       .then(response => {
+        console.log('RESPONSE', response);
         return response;
       })
       .catch(err => {

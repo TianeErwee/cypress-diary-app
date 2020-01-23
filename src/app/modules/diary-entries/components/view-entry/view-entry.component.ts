@@ -13,6 +13,8 @@ export class ViewEntryComponent implements OnInit {
   title: string;
   content: string;
 
+  entryExists: boolean;
+
   constructor(private entryService: EntryServiceService, private route: ActivatedRoute, private router: Router) { }
 
   ngOnInit() {
@@ -21,9 +23,16 @@ export class ViewEntryComponent implements OnInit {
   }
 
   async init() {
-    const res = await this.entryService.viewEntry(this.id);
-    this.title = res.statusMessage[0].title;
-    this.content = res.statusMessage[0].content;
+    try {
+      const res = await this.entryService.viewEntry(this.id);
+      this.title = res.statusMessage[0].title;
+      this.content = res.statusMessage[0].content;
+      this.entryExists = true;
+    } catch (err) {
+      this.entryExists = false;
+      console.log(err);
+    }
+
   }
 
   navToUpdate() {

@@ -19,11 +19,16 @@ export class EntriesListComponent implements OnInit {
   }
 
   async init() {
-    const res = await this.entryService.getEntries();
-    this.entries = res.statusMessage;
-    this.links = this.entries.map(e => {
-      return { url: '/entries/view-entry', entry: e};
-    });
+    try {
+      const res = await this.entryService.getEntries();
+      this.entries = res.statusMessage;
+      this.links = this.entries.map(e => {
+        return { url: '/entries/view-entry', entry: e};
+      });
+    } catch (err) {
+      console.log(err);
+    }
+
   }
 
   navToCreate() {

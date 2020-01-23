@@ -1,6 +1,11 @@
 <div>
-  <h3>{{title}}</h3>
-  <h5>{{content}}</h5>
+  <div id="entry-exists" *ngIf="entryExists">
+    <h3>{{title}}</h3>
+    <h5>{{content}}</h5>
+  </div>
+  <div id="entry-doesnt-exist" *ngIf="!entryExists">
+    <h3>Entry does not exist</h3>
+  </div>
   <button id="edit-entry" mat-button color="primary" (click)="navToUpdate($event)">Edit entry</button>
   <button id="delete-entry" mat-button color="secondary" (click)="deleteEntry($event)">Delete entry</button>
   <button id="back" mat-button color="secondary" (click)="navToList($event)">Back</button>
